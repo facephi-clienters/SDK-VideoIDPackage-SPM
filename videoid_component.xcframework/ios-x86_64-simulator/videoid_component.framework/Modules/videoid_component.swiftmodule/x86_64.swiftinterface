@@ -1,0 +1,143 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name videoid_component
+import AgoraRtcKit
+import Combine
+import CoreMedia
+import Foundation
+import Foundation/*.Bundle*/
+import Metal
+import Starscream
+import Swift
+import UIKit
+import _Concurrency
+import core
+import license_checker_component
+public struct VideoIdConfigurationData {
+  public var timeout: Swift.Int
+  public init(timeout: Swift.Int = 30)
+}
+extension videoid_component.R {
+  public enum Color : Swift.String, Swift.CaseIterable {
+    case MainBackground
+    case TitleText
+    case MessageText
+    case PrimaryButtonText
+    case AcceptButton
+    case RetryButton
+    case CheckText
+    case Primary
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [videoid_component.R.Color]
+    public typealias RawValue = Swift.String
+    public static var allCases: [videoid_component.R.Color] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension videoid_component.R {
+  public enum Dimension : CoreGraphics.CGFloat {
+    case fontRegular
+    case fontBig
+    case radiusCorner
+    public init?(rawValue: CoreGraphics.CGFloat)
+    public typealias RawValue = CoreGraphics.CGFloat
+    public var rawValue: CoreGraphics.CGFloat {
+      get
+    }
+  }
+}
+extension videoid_component.R {
+  public enum Font : Swift.String {
+    case regular
+    case bold
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension videoid_component.R {
+  public enum Image : Swift.String, Swift.CaseIterable {
+    case ic_video_id_back_id
+    case ic_video_id_check
+    case ic_video_id_close
+    case ic_video_id_front_id
+    case ic_video_id_record_back
+    case ic_video_id_record_face
+    case ic_video_id_record_front
+    case ic_video_id_user
+    case intro
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [videoid_component.R.Image]
+    public typealias RawValue = Swift.String
+    public static var allCases: [videoid_component.R.Image] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public enum R {
+}
+public class ThemeVideoId {
+  public init()
+  @objc deinit
+}
+extension videoid_component.ThemeVideoId : videoid_component.ThemeVideoIdProtocol {
+  public var name: Swift.String {
+    get
+  }
+  public var fonts: [videoid_component.R.Font : Swift.String] {
+    get
+  }
+  public var dimensions: [videoid_component.R.Dimension : CoreGraphics.CGFloat] {
+    get
+  }
+  public var colors: [videoid_component.R.Color : UIKit.UIColor?] {
+    get
+  }
+}
+public enum ThemeVideoIdManager {
+  public static func setup(theme: videoid_component.ThemeVideoIdProtocol)
+}
+public protocol ThemeVideoIdProtocol {
+  var name: Swift.String { get }
+  var fonts: [videoid_component.R.Font : Swift.String] { get }
+  var dimensions: [videoid_component.R.Dimension : CoreGraphics.CGFloat] { get }
+  var images: [videoid_component.R.Image : UIKit.UIImage?] { get }
+  var colors: [videoid_component.R.Color : UIKit.UIColor?] { get }
+}
+extension videoid_component.ThemeVideoIdProtocol {
+  public var images: [videoid_component.R.Image : UIKit.UIImage?] {
+    get
+  }
+  public var colors: [videoid_component.R.Color : UIKit.UIColor?] {
+    get
+  }
+}
+public class VideoIdController : core.IWidgetController<core.EnvironmentVideoIdData>, core.IVideoIdController {
+  public var output: ((core.SdkResult<Swift.String>) -> ())!
+  public var license: Swift.String
+  public init(navigationController: UIKit.UINavigationController)
+  override public func start()
+  override public func setup(data: core.EnvironmentVideoIdData)
+  @objc deinit
+}
+extension videoid_component.R.Color : Swift.Equatable {}
+extension videoid_component.R.Color : Swift.Hashable {}
+extension videoid_component.R.Color : Swift.RawRepresentable {}
+extension videoid_component.R.Dimension : Swift.Equatable {}
+extension videoid_component.R.Dimension : Swift.Hashable {}
+extension videoid_component.R.Dimension : Swift.RawRepresentable {}
+extension videoid_component.R.Font : Swift.Equatable {}
+extension videoid_component.R.Font : Swift.Hashable {}
+extension videoid_component.R.Font : Swift.RawRepresentable {}
+extension videoid_component.R.Image : Swift.Equatable {}
+extension videoid_component.R.Image : Swift.Hashable {}
+extension videoid_component.R.Image : Swift.RawRepresentable {}

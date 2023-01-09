@@ -1,1 +1,1 @@
-# SDK-VideoIDPackage-SPM
+# SDK-VideoID-Test-SPM
