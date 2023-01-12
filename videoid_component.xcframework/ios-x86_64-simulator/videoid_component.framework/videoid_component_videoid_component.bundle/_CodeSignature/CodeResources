@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		VBZWof47Ib8YURRSHf6ngWnMtLo=
+		YEzrxlCQj+4jlrYngFDEnJxpS+g=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -16,17 +16,29 @@
 		<data>
 		ILOci0gMlGsITWqgnxK/ELLsWqY=
 		</data>
-		<key>VideoIdRecordingView.nib</key>
+		<key>VideoIdRecordingView.nib/objects-11.0+.nib</key>
 		<data>
 		c6n2D9hEr4mICZBSHHdqCHpR1OE=
 		</data>
-		<key>VideoIdWaitingView.nib</key>
+		<key>VideoIdRecordingView.nib/runtime.nib</key>
+		<data>
+		PzDSaz9qP4s5Spr4I27KOhVJTfE=
+		</data>
+		<key>VideoIdWaitingView.nib/objects-11.0+.nib</key>
 		<data>
 		vFpbHdui2fY3PXkv0wbXtTz0J3A=
 		</data>
-		<key>VideoView.nib</key>
+		<key>VideoIdWaitingView.nib/runtime.nib</key>
+		<data>
+		WuUZmDdWF30h50GRUzduBp0uDrU=
+		</data>
+		<key>VideoView.nib/objects-11.0+.nib</key>
 		<data>
 		Rt/fXSmQ4zHsub9VDGaqQqqgtxs=
+		</data>
+		<key>VideoView.nib/runtime.nib</key>
+		<data>
+		KiVCvADhq+eM/xS/XF1Qpz7KG4c=
 		</data>
 		<key>en.lproj/VIDLocalizable.strings</key>
 		<dict>
@@ -66,11 +78,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VBZWof47Ib8YURRSHf6ngWnMtLo=
+			YEzrxlCQj+4jlrYngFDEnJxpS+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			CZBTNUN7xSqpfEQedaahgnkQK4RaUyoo678eo4Z1Znc=
+			B8IabVdq62qG9QAdSZPcipyRcYAHJrvbsVkX+xRI0Ok=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -95,7 +107,7 @@
 			v5wf9kCsyLtUQam1ZDYJQ/nbkJaXQqozo2MpsoKNJ1k=
 			</data>
 		</dict>
-		<key>VideoIdRecordingView.nib</key>
+		<key>VideoIdRecordingView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -106,7 +118,18 @@
 			uXe/Mfk4MWKyAov6TkxvMBIg1F22dRvnIcA9YIBkPo4=
 			</data>
 		</dict>
-		<key>VideoIdWaitingView.nib</key>
+		<key>VideoIdRecordingView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PzDSaz9qP4s5Spr4I27KOhVJTfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pAQ1p1CJg7EjkLsRZR5F1DtVeF5t2V5bTNZN21gAeCU=
+			</data>
+		</dict>
+		<key>VideoIdWaitingView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -117,7 +140,18 @@
 			bdH8AyxfGx+e44DV4GQvZ+Q5btXKzROHhLiA4QiSa8g=
 			</data>
 		</dict>
-		<key>VideoView.nib</key>
+		<key>VideoIdWaitingView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WuUZmDdWF30h50GRUzduBp0uDrU=
+			</data>
+			<key>hash2</key>
+			<data>
+			vnaGv3DgXQ80dcMw8w0Elc7pybagEjYjbHQo50kdyYQ=
+			</data>
+		</dict>
+		<key>VideoView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -126,6 +160,17 @@
 			<key>hash2</key>
 			<data>
 			C0+UUa8SWC8id099Hz4Tof2ntpuDpj/Pk9APSbnCelY=
+			</data>
+		</dict>
+		<key>VideoView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KiVCvADhq+eM/xS/XF1Qpz7KG4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			ang9Qe395IxCtH/dsHaTXRHXG8ccQ0Vu7tlE9vJ8bUg=
 			</data>
 		</dict>
 		<key>en.lproj/VIDLocalizable.strings</key>
