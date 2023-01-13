@@ -5,6 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "SDK-VideoIDPackage-SPM",
+    defaultLocalization: "es",
+    platforms: [
+        .iOS(.v11),
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -28,9 +32,8 @@ let package = Package(
                 package: "AgoraRtcEngine_iOS"), .product(
                     name: "Starscream",
                     package: "Starscream"),
-                          ],
-            resources: [.process("Resources")]) ,
-           .binaryTarget(name: "videoid_component", path: "videoid_component.xcframework"),
-        
+            ]
+        ),
+        .binaryTarget(name: "videoid_component", path: "videoid_component.xcframework"),
     ]
 )
