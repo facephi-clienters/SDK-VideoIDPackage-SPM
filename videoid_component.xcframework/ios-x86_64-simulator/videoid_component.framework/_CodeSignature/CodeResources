@@ -18,17 +18,13 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		X73G+PnVDSDQC3sAOV9HBtOqbEQ=
+		jySUoqTTH1uFl7gERsqBFMcg8Ao=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Frameworks/licensingLite.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7My7eRWhmGfFJF+goxpuuqeebf8=
-			</data>
 			<key>hash2</key>
 			<data>
 			9spLO8KwFckQNrsgfkPlwKPlI65EUTKJTRaqVn/O+G4=
@@ -36,10 +32,6 @@
 		</dict>
 		<key>Frameworks/licensingLite.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FAG4Hij5eWkk7Sh6HVthmVQ0SLY=
-			</data>
 			<key>hash2</key>
 			<data>
 			1qh1Mvv7DD8u6V2nRBw4JWPiviAAPuhNiheyxZtzZ3U=
@@ -47,10 +39,6 @@
 		</dict>
 		<key>Frameworks/licensingLite.framework/licensingLite</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MJ2hvkTYQ9ubjWa4m6h/wxDS4Po=
-			</data>
 			<key>hash2</key>
 			<data>
 			Z9dzG3blhXx3Wlqbj9mRzF0QWfaiBKqL4k9sTk7ALM0=
