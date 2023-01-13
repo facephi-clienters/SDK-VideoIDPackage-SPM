@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SDK-VideoIDPackage-SPM",
+    defaultLocalization: "es",
     platforms: [
         .iOS(.v11),
     ],
