@@ -31,9 +31,9 @@ let package = Package(
                 package: "AgoraRtcEngine_iOS"), .product(
                     name: "Starscream",
                     package: "Starscream"),
-                          ],
-            resources: [.process("Resources")]) ,
-           .binaryTarget(name: "videoid_component", path: "videoid_component.xcframework"),
-        
+            ],
+            resources: [.process("Resources")]
+        ),
+        .binaryTarget(name: "videoid_component", path: "videoid_component.xcframework"),
     ]
 )
