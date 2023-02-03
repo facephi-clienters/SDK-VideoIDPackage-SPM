@@ -13,7 +13,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SDK-VideoIDPackage-SPM",
-            targets: ["SDK-VideoIDPackage-SPM", "videoid_component"]),
+            targets: ["SDK-VideoIDPackage-SPM", "videoidComponent"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -27,13 +27,13 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SDK-VideoIDPackage-SPM",
-            dependencies: ["videoid_component", "SDK-CorePackage-SPM", .product(
+            dependencies: ["videoidComponent", "SDK-CorePackage-SPM", .product(
                 name: "RtcBasic",
                 package: "AgoraRtcEngine_iOS"), .product(
                     name: "Starscream",
                     package: "Starscream"),
             ]
         ),
-        .binaryTarget(name: "videoid_component", path: "videoid_component.xcframework"),
+        .binaryTarget(name: "videoidComponent", path: "videoidComponent.xcframework"),
     ]
 )
