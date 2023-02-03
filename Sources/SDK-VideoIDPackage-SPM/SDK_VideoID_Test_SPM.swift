@@ -1,7 +1,5 @@
-import videoid_component 
+import videoidComponent
 public struct SDK_VideoID_Test_SPM {
-    public private(set) var text = "Hello, World!"
-
     public init() {
     }
 }
