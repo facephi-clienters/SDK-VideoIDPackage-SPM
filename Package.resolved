@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AgoraRtcKit",
+        "repositoryURL": "https://github.com/AgoraIO/AgoraRtcEngine_iOS",
+        "state": {
+          "branch": null,
+          "revision": "d1ca4444db15fb9ff53bbe999396af70f0fc2a82",
+          "version": "3.7.2"
+        }
+      },
+      {
+        "package": "SDK-CorePackage-SPM",
+        "repositoryURL": "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git",
+        "state": {
+          "branch": null,
+          "revision": "f5833b7cfe6f9addca477bf21f2b031321991b86",
+          "version": "1.1.2"
+        }
+      },
+      {
+        "package": "SDK-LicenseCheckerPackage-SPM",
+        "repositoryURL": "https://github.com/facephi-clienters/SDK-LicenseCheckerPackage-SPM.git",
+        "state": {
+          "branch": null,
+          "revision": "ef94a386fac1223c2daa6a7c73f1d07750bded85",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+          "version": "4.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
