@@ -139,7 +139,7 @@ extension videoidComponent.ThemeVideoIdProtocol {
 public class VideoIdController : core.IWidgetController<core.EnvironmentVideoIdData>, core.IVideoIdController {
   public var output: ((core.SdkResult<Swift.String>) -> ())!
   public var license: Swift.String
-  public init(navigationController: UIKit.UINavigationController)
+  public init(viewController: UIKit.UIViewController)
   override public func start()
   override public func setup(data: core.EnvironmentVideoIdData)
   @objc deinit
