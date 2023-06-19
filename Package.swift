@@ -21,17 +21,23 @@ let package = Package(
         .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS", from: "3.4.3"),
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.4"),
        .package(name: "SDK-CorePackage-SPM", url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", from: "1.4.2"),
+        .package(url: "https://github.com/airbnb/lottie-spm", from: "4.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SDK-VideoIDPackage-SPM",
-            dependencies: ["videoidComponent", "SDK-CorePackage-SPM", .product(
-                name: "RtcBasic",
-                package: "AgoraRtcEngine_iOS"), .product(
+            dependencies: ["videoidComponent", "SDK-CorePackage-SPM",
+                .product(
+                    name: "RtcBasic",
+                    package: "AgoraRtcEngine_iOS"),
+                .product(
                     name: "Starscream",
                     package: "Starscream"),
+                .product(
+                    name: "Lottie",
+                    package: "lottie-spm"),
             ]
         ),
         .binaryTarget(name: "videoidComponent", path: "videoidComponent.xcframework"),

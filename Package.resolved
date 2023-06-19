@@ -11,12 +11,21 @@
         }
       },
       {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-spm",
+        "state": {
+          "branch": null,
+          "revision": "60ea4f82fba8b4cb21a75665a889e86ed4d81c6e",
+          "version": "4.2.0"
+        }
+      },
+      {
         "package": "SDK-CorePackage-SPM",
         "repositoryURL": "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git",
         "state": {
           "branch": null,
-          "revision": "f7cfea5ff9d7dd2c9bb0f52170c5e7a4a7ae2872",
-          "version": "1.1.2"
+          "revision": "9b7bacaa2c5c31f18bf51055b3b8dbaaa18626a9",
+          "version": "1.4.2"
         }
       },
       {
@@ -24,8 +33,8 @@
         "repositoryURL": "https://github.com/facephi-clienters/SDK-LicenseCheckerPackage-SPM.git",
         "state": {
           "branch": null,
-          "revision": "875d45fb456e31a126cd10c1d1adaa6f4ba97a1d",
-          "version": "1.1.3"
+          "revision": "9ce6ca948f3ecb6d07f6e047f6a547b595f58aa0",
+          "version": "1.3.1"
         }
       },
       {
