@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git",
         "state": {
           "branch": null,
-          "revision": "f5833b7cfe6f9addca477bf21f2b031321991b86",
+          "revision": "f7cfea5ff9d7dd2c9bb0f52170c5e7a4a7ae2872",
           "version": "1.1.2"
         }
       },
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/facephi-clienters/SDK-LicenseCheckerPackage-SPM.git",
         "state": {
           "branch": null,
-          "revision": "ef94a386fac1223c2daa6a7c73f1d07750bded85",
-          "version": "1.1.1"
+          "revision": "875d45fb456e31a126cd10c1d1adaa6f4ba97a1d",
+          "version": "1.1.3"
         }
       },
       {
