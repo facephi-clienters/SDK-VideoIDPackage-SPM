@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YIANIJaxJyASr7F9SNkU965l5rw=
+		DnhtNH1s92O9d/+0X0xNF3QAHto=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -18,15 +18,23 @@
 		</data>
 		<key>VideoIdRecordingView.nib</key>
 		<data>
-		p5x6SWtnKlaMtAqUZw+ZFIuB/+Y=
+		cUgQam+kn/+9mGELk2UkkxiybMM=
 		</data>
-		<key>VideoIdWaitingView.nib</key>
+		<key>VideoIdTutorialView.nib/objects-13.0+.nib</key>
 		<data>
-		QUgkQLrv6pZ4nQMhYnAyFTJQqSc=
+		UohLPD+X+KGp2nEkEnOjlvXdks8=
+		</data>
+		<key>VideoIdTutorialView.nib/runtime.nib</key>
+		<data>
+		Q4FkEsWTJwpLh65BDoNU9CmOxCg=
 		</data>
 		<key>VideoView.nib</key>
 		<data>
-		TooUIMwQpc3Jic4jcS+uQuBpTiw=
+		ypfHKuOvb6HTNIaIEEIOlrz6SYE=
+		</data>
+		<key>circle_loading.json</key>
+		<data>
+		akBhHT729AjNLmz1LkjixVxw8e8=
 		</data>
 		<key>en.lproj/VIDLocalizable.strings</key>
 		<dict>
@@ -57,15 +65,15 @@
 		</dict>
 		<key>video_id_anim.json</key>
 		<data>
-		wh/F8FcX2ZYrFXP3qD5ZQWkAxnw=
+		YKpiQaYYxuabN1ZSCWaqzt6zUqw=
 		</data>
 		<key>videoid_tip_face_document_front.json</key>
 		<data>
-		YKpiQaYYxuabN1ZSCWaqzt6zUqw=
+		RRsEOm7gVAP3XVfrGdUjrm4U8cY=
 		</data>
 		<key>videoid_tip_only_face.json</key>
 		<data>
-		yzpRxSXC8zV9eRlmg7I65+WfPmg=
+		M9o5k7jWd7XQe4keACkndkOlGYQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -74,11 +82,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YIANIJaxJyASr7F9SNkU965l5rw=
+			DnhtNH1s92O9d/+0X0xNF3QAHto=
 			</data>
 			<key>hash2</key>
 			<data>
-			0h2qT9Rve3eVVaM0nnCpEVoD1GCterS9PiAEAgNcC+U=
+			EljKV+MY48qIrhd+FRwRm2gpXoDBh963X1pHZvJRC/8=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -107,33 +115,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p5x6SWtnKlaMtAqUZw+ZFIuB/+Y=
+			cUgQam+kn/+9mGELk2UkkxiybMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kFvEcn4urM2vyip9PxW/w5kY79j8dcdjXnqaU8QAPXI=
+			i5DHtAAmbbiYsa6PQtW4Vww7v1MDj91RNYw5Ff5EUAs=
 			</data>
 		</dict>
-		<key>VideoIdWaitingView.nib</key>
+		<key>VideoIdTutorialView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QUgkQLrv6pZ4nQMhYnAyFTJQqSc=
+			UohLPD+X+KGp2nEkEnOjlvXdks8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0IcqkulMvWKKIwZq/S4LoD3h/SrnurH8duGGZx0UZMk=
+			rM/Jr7Q56TNhAC3sZyahlfn9RSiRlNaF5rTs7shFSUQ=
+			</data>
+		</dict>
+		<key>VideoIdTutorialView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q4FkEsWTJwpLh65BDoNU9CmOxCg=
+			</data>
+			<key>hash2</key>
+			<data>
+			sT48xIj9TxeIGqKztMs7Bct64plD8VMnyefxp8w6NWg=
 			</data>
 		</dict>
 		<key>VideoView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TooUIMwQpc3Jic4jcS+uQuBpTiw=
+			ypfHKuOvb6HTNIaIEEIOlrz6SYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			IG8amzNBnfkBTjq4TwQ6s9UrH+PautMm3oBoZI9l4Es=
+			IDDfGScCA1DDpUSTLhRjbeyVxtakndx5jmpfKq0sdFU=
+			</data>
+		</dict>
+		<key>circle_loading.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			akBhHT729AjNLmz1LkjixVxw8e8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ABNUfY9PKq8DItf1UfRv9ppz2ppGV/kQ6GgQHwAm4Uw=
 			</data>
 		</dict>
 		<key>en.lproj/VIDLocalizable.strings</key>
@@ -179,17 +209,6 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wh/F8FcX2ZYrFXP3qD5ZQWkAxnw=
-			</data>
-			<key>hash2</key>
-			<data>
-			B6XWTMm2pTW0WJPKP9z7a2cBQ6rZq8+Vjm3jQN76jA0=
-			</data>
-		</dict>
-		<key>videoid_tip_face_document_front.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
 			YKpiQaYYxuabN1ZSCWaqzt6zUqw=
 			</data>
 			<key>hash2</key>
@@ -197,15 +216,26 @@
 			LGDgyP6ez+qHwm0RYhorCWzjP7YE8wnDue0x3i4JZKg=
 			</data>
 		</dict>
+		<key>videoid_tip_face_document_front.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RRsEOm7gVAP3XVfrGdUjrm4U8cY=
+			</data>
+			<key>hash2</key>
+			<data>
+			5DJKUU8MAjRbbcO8erA7cklXSz7yeFpcVW47tn79lDA=
+			</data>
+		</dict>
 		<key>videoid_tip_only_face.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yzpRxSXC8zV9eRlmg7I65+WfPmg=
+			M9o5k7jWd7XQe4keACkndkOlGYQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			up5uZ+leG3L7yVuCY3F/wT72nBC/cnZ9BD8qJJLv1/Q=
+			JeMNzzohTo0dyeGI/X6pTfeJ7RSLt28FWd8JlUTsgmQ=
 			</data>
 		</dict>
 	</dict>
