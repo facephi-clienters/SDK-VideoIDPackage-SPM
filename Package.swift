@@ -7,7 +7,7 @@ let package = Package(
     name: "SDK-VideoIDPackage-SPM",
     defaultLocalization: "es",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v12),
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -19,8 +19,8 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS", from: "3.4.3"),
-        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.4"),
-       .package(name: "SDK-CorePackage-SPM", url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", from: "1.1.2"),
+        .package(url: "https://github.com/daltoniam/Starscream.git", .exactItem("4.0.4")),
+       .package(name: "SDK-CorePackage-SPM", url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("1.1.5")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
