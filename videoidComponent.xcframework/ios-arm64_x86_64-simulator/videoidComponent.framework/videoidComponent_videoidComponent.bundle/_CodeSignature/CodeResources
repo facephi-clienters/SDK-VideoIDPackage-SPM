@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YIANIJaxJyASr7F9SNkU965l5rw=
+		wsN1xjMv75DxqIbGjLUKFJYq7nc=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>VideoIdRecordingView.nib</key>
 		<data>
-		p5x6SWtnKlaMtAqUZw+ZFIuB/+Y=
+		Tg9WkBeustvE+tCC2jORHH8euTE=
 		</data>
 		<key>VideoIdWaitingView.nib</key>
 		<data>
-		QUgkQLrv6pZ4nQMhYnAyFTJQqSc=
+		eig7C6x85IirxinN6vJmnsT+eY4=
 		</data>
 		<key>VideoView.nib</key>
 		<data>
-		TooUIMwQpc3Jic4jcS+uQuBpTiw=
+		uT2MC3G+ZEIBZM/2bmvmyJFloJs=
 		</data>
 		<key>en.lproj/VIDLocalizable.strings</key>
 		<dict>
@@ -74,11 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YIANIJaxJyASr7F9SNkU965l5rw=
+			wsN1xjMv75DxqIbGjLUKFJYq7nc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0h2qT9Rve3eVVaM0nnCpEVoD1GCterS9PiAEAgNcC+U=
+			QFeBeAV4uWPTJhUMRdK4a/S+w2gHmoOrqzotBoVsBsM=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -107,33 +107,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p5x6SWtnKlaMtAqUZw+ZFIuB/+Y=
+			Tg9WkBeustvE+tCC2jORHH8euTE=
 			</data>
 			<key>hash2</key>
 			<data>
-			kFvEcn4urM2vyip9PxW/w5kY79j8dcdjXnqaU8QAPXI=
+			jU5ZOciSgqf0XRJQYasuTGEPwe2FcYTzJVvrf7uJ/LY=
 			</data>
 		</dict>
 		<key>VideoIdWaitingView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QUgkQLrv6pZ4nQMhYnAyFTJQqSc=
+			eig7C6x85IirxinN6vJmnsT+eY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			0IcqkulMvWKKIwZq/S4LoD3h/SrnurH8duGGZx0UZMk=
+			eQN5pesNQIB2mFW4k/itYPHst2mnWznfWsf9VZ5EXjI=
 			</data>
 		</dict>
 		<key>VideoView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TooUIMwQpc3Jic4jcS+uQuBpTiw=
+			uT2MC3G+ZEIBZM/2bmvmyJFloJs=
 			</data>
 			<key>hash2</key>
 			<data>
-			IG8amzNBnfkBTjq4TwQ6s9UrH+PautMm3oBoZI9l4Es=
+			X6F93BztJH0JS+bzve5+zEw7n67krSznUvbHWImWfwM=
 			</data>
 		</dict>
 		<key>en.lproj/VIDLocalizable.strings</key>
