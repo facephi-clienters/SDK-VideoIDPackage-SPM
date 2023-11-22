@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		DnhtNH1s92O9d/+0X0xNF3QAHto=
+		L+9B4e9xWPuXEAn7PfVSRT9tSH8=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -16,31 +16,39 @@
 		<data>
 		ILOci0gMlGsITWqgnxK/ELLsWqY=
 		</data>
-		<key>VideoIdRecordingView.nib</key>
+		<key>VideoIdDiagnosticView.nib/objects-13.0+.nib</key>
 		<data>
-		cUgQam+kn/+9mGELk2UkkxiybMM=
+		AmuL0/8F5d9wkXYchjGsvcjBpl4=
+		</data>
+		<key>VideoIdDiagnosticView.nib/runtime.nib</key>
+		<data>
+		L8MnaTPV+yBmOsc0hb2AhZv7qKQ=
+		</data>
+		<key>VideoIdRecordingView.nib/objects-13.0+.nib</key>
+		<data>
+		opZ6Y/Lf/RoWdNzOQUpPDQtxhE8=
+		</data>
+		<key>VideoIdRecordingView.nib/runtime.nib</key>
+		<data>
+		zg4fmfFfj3mrDaVZwM6doY5iIJ4=
 		</data>
 		<key>VideoIdTutorialView.nib/objects-13.0+.nib</key>
 		<data>
-		UohLPD+X+KGp2nEkEnOjlvXdks8=
+		/iTRMhrqEKmba/b+XfzQv6Jq8lg=
 		</data>
 		<key>VideoIdTutorialView.nib/runtime.nib</key>
 		<data>
-		Q4FkEsWTJwpLh65BDoNU9CmOxCg=
+		dsByJrYifOjB5AakpV7FYzfMzBQ=
 		</data>
 		<key>VideoView.nib</key>
 		<data>
-		ypfHKuOvb6HTNIaIEEIOlrz6SYE=
-		</data>
-		<key>circle_loading.json</key>
-		<data>
-		akBhHT729AjNLmz1LkjixVxw8e8=
+		qAAk9iotKYqUT8PKJxW1Uia8XJE=
 		</data>
 		<key>en.lproj/VIDLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wJjAHOLvxnsekRxgjAWbgUqpZtQ=
+			8wrHZ725SidB2n/3ZgAoRVQacZc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -49,7 +57,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0iPzmngVNR5mNqU83JmTlqt+EUk=
+			H4Nq0C877JA/Kka33w0Q++Twcxw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -58,22 +66,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XJqWAvqtVm2wrFJzzAQzxliG1g0=
+			oeE8GHHd8YBRL9eUeeWOmopuZ1E=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>video_id_anim.json</key>
-		<data>
-		YKpiQaYYxuabN1ZSCWaqzt6zUqw=
-		</data>
-		<key>videoid_tip_face_document_front.json</key>
+		<key>video_id_anim_doc_and_face.json</key>
 		<data>
 		RRsEOm7gVAP3XVfrGdUjrm4U8cY=
 		</data>
-		<key>videoid_tip_only_face.json</key>
+		<key>video_id_anim_face.json</key>
 		<data>
 		M9o5k7jWd7XQe4keACkndkOlGYQ=
+		</data>
+		<key>video_id_anim_loading.json</key>
+		<data>
+		akBhHT729AjNLmz1LkjixVxw8e8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -82,11 +90,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DnhtNH1s92O9d/+0X0xNF3QAHto=
+			L+9B4e9xWPuXEAn7PfVSRT9tSH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			EljKV+MY48qIrhd+FRwRm2gpXoDBh963X1pHZvJRC/8=
+			0qr68ed5vPTRpDoC3aqZ2n+JlHlpfhvd5R1ZxuMNumc=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -111,70 +119,92 @@
 			v5wf9kCsyLtUQam1ZDYJQ/nbkJaXQqozo2MpsoKNJ1k=
 			</data>
 		</dict>
-		<key>VideoIdRecordingView.nib</key>
+		<key>VideoIdDiagnosticView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cUgQam+kn/+9mGELk2UkkxiybMM=
+			AmuL0/8F5d9wkXYchjGsvcjBpl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			i5DHtAAmbbiYsa6PQtW4Vww7v1MDj91RNYw5Ff5EUAs=
+			PwrOsaRdPvpMnO2Az6LB6j25yrFsozUBU/NujyMMrG4=
+			</data>
+		</dict>
+		<key>VideoIdDiagnosticView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			L8MnaTPV+yBmOsc0hb2AhZv7qKQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ayaADSRuSotZwzZuYZl/D/tyqcSC8P97MPDU1NSIuWk=
+			</data>
+		</dict>
+		<key>VideoIdRecordingView.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opZ6Y/Lf/RoWdNzOQUpPDQtxhE8=
+			</data>
+			<key>hash2</key>
+			<data>
+			oh+rzngmgbr1JTnkFgZnp/OHKHpqRFJlJKrXcaudhOE=
+			</data>
+		</dict>
+		<key>VideoIdRecordingView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zg4fmfFfj3mrDaVZwM6doY5iIJ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			nNEWYNSrYYHiaASROAkNHsLMm57SvtZ8EGMCyEm+FlA=
 			</data>
 		</dict>
 		<key>VideoIdTutorialView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UohLPD+X+KGp2nEkEnOjlvXdks8=
+			/iTRMhrqEKmba/b+XfzQv6Jq8lg=
 			</data>
 			<key>hash2</key>
 			<data>
-			rM/Jr7Q56TNhAC3sZyahlfn9RSiRlNaF5rTs7shFSUQ=
+			AVoBf4lovXwy7H/gHRyCAhqTiy1lsQkaE4H0AOvCRTw=
 			</data>
 		</dict>
 		<key>VideoIdTutorialView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q4FkEsWTJwpLh65BDoNU9CmOxCg=
+			dsByJrYifOjB5AakpV7FYzfMzBQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT48xIj9TxeIGqKztMs7Bct64plD8VMnyefxp8w6NWg=
+			GwRnF+O2bRbv/erP1QSE699/5Ezt12sZmidvVRGlI2w=
 			</data>
 		</dict>
 		<key>VideoView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ypfHKuOvb6HTNIaIEEIOlrz6SYE=
+			qAAk9iotKYqUT8PKJxW1Uia8XJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			IDDfGScCA1DDpUSTLhRjbeyVxtakndx5jmpfKq0sdFU=
-			</data>
-		</dict>
-		<key>circle_loading.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			akBhHT729AjNLmz1LkjixVxw8e8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ABNUfY9PKq8DItf1UfRv9ppz2ppGV/kQ6GgQHwAm4Uw=
+			OsE5amvhTMdriitOTPumQNsJvoN09ebu4QSScoNKrLA=
 			</data>
 		</dict>
 		<key>en.lproj/VIDLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wJjAHOLvxnsekRxgjAWbgUqpZtQ=
+			8wrHZ725SidB2n/3ZgAoRVQacZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yhTCwKTK0Lgb2TThwRkqAS2KBPJhESySgX5cinvRO5U=
+			pwxAOP+9k95mh3bp8sk9mRyDbImA5zCUQpTlwqD+Lv8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -183,11 +213,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0iPzmngVNR5mNqU83JmTlqt+EUk=
+			H4Nq0C877JA/Kka33w0Q++Twcxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			3HV2KCPZzS9WqljQsaSwzkhRPxftsXPcbjTdvrmT8Jw=
+			P9Mgv1Hk6hJBaQcfB8o1egkBP1Sd6nTK71uPAJYbwUI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -196,27 +226,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XJqWAvqtVm2wrFJzzAQzxliG1g0=
+			oeE8GHHd8YBRL9eUeeWOmopuZ1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ym6zitoisLhB8/kBUwaVh/dJ4Y67PXl6h2SmpOvWxkQ=
+			79ra3DgomfmJo92gYpcFGGM22uyA0LNitS8Rw46dNaA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>video_id_anim.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YKpiQaYYxuabN1ZSCWaqzt6zUqw=
-			</data>
-			<key>hash2</key>
-			<data>
-			LGDgyP6ez+qHwm0RYhorCWzjP7YE8wnDue0x3i4JZKg=
-			</data>
-		</dict>
-		<key>videoid_tip_face_document_front.json</key>
+		<key>video_id_anim_doc_and_face.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -227,7 +246,7 @@
 			5DJKUU8MAjRbbcO8erA7cklXSz7yeFpcVW47tn79lDA=
 			</data>
 		</dict>
-		<key>videoid_tip_only_face.json</key>
+		<key>video_id_anim_face.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -236,6 +255,17 @@
 			<key>hash2</key>
 			<data>
 			JeMNzzohTo0dyeGI/X6pTfeJ7RSLt28FWd8JlUTsgmQ=
+			</data>
+		</dict>
+		<key>video_id_anim_loading.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			akBhHT729AjNLmz1LkjixVxw8e8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ABNUfY9PKq8DItf1UfRv9ppz2ppGV/kQ6GgQHwAm4Uw=
 			</data>
 		</dict>
 	</dict>
