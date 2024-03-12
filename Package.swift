@@ -18,7 +18,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "git@github.com:AgoraIO/AgoraRtcEngine_iOS", from: "3.4.3"),
         .package(url: "git@github.com:daltoniam/Starscream.git", from: "4.0.6"),
-       .package(name: "SDK-CorePackage-SPM", url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", from: "1.5.0"),
+       .package(name: "SDK-CorePackage-SPM", url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", from: "1.5.8"),
         .package(url: "git@github.com:airbnb/lottie-spm", from: "4.0.0")
     ],
     targets: [
