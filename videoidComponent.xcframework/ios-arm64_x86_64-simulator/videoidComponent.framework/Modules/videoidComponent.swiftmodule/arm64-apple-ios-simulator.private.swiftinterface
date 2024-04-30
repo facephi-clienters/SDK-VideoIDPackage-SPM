@@ -1,25 +1,19 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name videoidComponent
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name videoidComponent
 import AVFoundation
 import AgoraRtcKit
-import CoreMedia
-import DeveloperToolsSupport
 import Foundation
 import Foundation/*.Bundle*/
 import Foundation/*.ProcessInfo*/
 import Foundation/*.URL*/
 import Lottie
-import Metal
-import MetalKit
 import Network
 import Starscream
 import Swift
-import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 import core
 import licenseCheckerComponent
 public enum VideoIdMode : Swift.String, Swift.Codable {
@@ -34,16 +28,16 @@ public enum VideoIdMode : Swift.String, Swift.Codable {
 }
 public struct VideoIDConfigurationData : Swift.Codable {
   public var sectionTime: Swift.Int?
+  public var showCompletedTutorial: Swift.Bool?
   public var mode: videoidComponent.VideoIdMode?
   public var url: Swift.String?
   public var apiKey: Swift.String?
   public var tenantId: Swift.String?
-  public var showCompletedTutorial: Swift.Bool?
   public var extractionTimeout: Swift.Int?
-  public var showDiagnostic: Swift.Bool?
-  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = false, extractionTimeout: Swift.Int? = nil, showDiagnostic: Swift.Bool = false)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public var vibrationEnabled: Swift.Bool?
+  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT_BACK, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = true, extractionTimeout: Swift.Int? = nil, vibrationEnabled: Swift.Bool = false)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 extension videoidComponent.R {
   public enum Animation : Swift.String, Swift.CaseIterable {
@@ -64,12 +58,16 @@ extension videoidComponent.R {
 extension videoidComponent.R {
   public enum Color : Swift.String, Swift.CaseIterable {
     case sdkBackgroundColor
-    case sdkTitleTextColor
+    case sdkBackgroundDisabled
     case sdkBodyTextColor
+    case sdkCardBackgroundColor
+    case sdkCardTextColor
+    case sdkErrorColor
     case sdkPrimaryButtonTextColor
-    case sdkSuccessColor
     case sdkPrimaryColor
     case sdkPrimaryVariantColor
+    case sdkTitleTextColor
+    case sdkSuccessColor
     public init?(rawValue: Swift.String)
     public typealias AllCases = [videoidComponent.R.Color]
     public typealias RawValue = Swift.String
@@ -149,7 +147,7 @@ extension videoidComponent.ThemeVideoId : videoidComponent.ThemeVideoIdProtocol 
   }
 }
 public enum ThemeVideoIdManager {
-  public static func setup(theme: any videoidComponent.ThemeVideoIdProtocol)
+  public static func setup(theme: videoidComponent.ThemeVideoIdProtocol)
 }
 public protocol ThemeVideoIdProtocol {
   var name: Swift.String { get }
@@ -172,26 +170,42 @@ extension videoidComponent.ThemeVideoIdProtocol {
 }
 public class VideoIdController {
   public var license: Swift.String
-  public var trackingController: (any core.ITrackingController)?
-  public var behaviorController: (any core.IBehaviorController)?
-  public var flowController: (any core.IFlowController)?
+  public var trackingController: core.ITrackingController?
+  public var behaviorController: core.IBehaviorController?
+  public var statusController: core.IStatusController?
+  public var flowController: core.IFlowController?
+  public var tokenizeController: core.ITokenizeController?
+  public var trackingStep: Swift.String {
+    get
+  }
+  public var flowStep: Swift.String {
+    get
+  }
   public init(data: videoidComponent.VideoIDConfigurationData?, output: @escaping (core.SdkResult<Swift.String>) -> (), viewController: UIKit.UIViewController)
   @objc deinit
 }
 extension videoidComponent.VideoIdController : core.ITrackMethodableController {
-  public var trackingStep: Swift.String {
-    get
-  }
-  public func start(operationController: any core.IOperationableController)
+  public func start(operationController: core.IOperationableController)
 }
 extension videoidComponent.VideoIdController : core.IFlowableController {
-  public var flowStep: Swift.String {
-    get
-  }
-  public var dataString: Swift.String {
+  public var dataString: Swift.String? {
     get
     set(newValue)
   }
+  public var customizationString: Swift.String? {
+    get
+    set(newValue)
+  }
+}
+@_inheritsConvenienceInitializers public class SignatureVideoIdController : videoidComponent.VideoIdController {
+  override public var trackingStep: Swift.String {
+    get
+  }
+  override public var flowStep: Swift.String {
+    get
+  }
+  override public init(data: videoidComponent.VideoIDConfigurationData?, output: @escaping (core.SdkResult<Swift.String>) -> (), viewController: UIKit.UIViewController)
+  @objc deinit
 }
 extension videoidComponent.VideoIdMode : Swift.Equatable {}
 extension videoidComponent.VideoIdMode : Swift.Hashable {}
