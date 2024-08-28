@@ -4,8 +4,8 @@
 "video_id_init_message_face_docu_content_desc"="Coloca tu rostro y el frente de tu documento en las marcas";
 "video_id_init_message_face_content_desc"="Coloca tu rostro en las marcas e inicia la grabación";
 "video_id_finish_message"="¡Videograbación finalizada!";
-"video_id_finish_button"="Finalizar";
-"video_id_restart"="Repetir grabación";
+"video_id_finish_button"="FINALIZAR";
+"video_id_restart"="REPETIR GRABACIÓN";
 "video_id_record_init_button"="Iniciar grabación";
 "video_id_ready_button"="CONTINUAR";
 "video_id_generic_error"="Ha habido un error en la grabación";
@@ -23,3 +23,6 @@
 "video_id_timeout_error_description"="Asegúrate de que la conexión a internet es correcta.";
 "video_id_unknown_error_title"="Se ha producido un error";
 "video_id_unknown_error_description"="Probemos de nuevo.";
+"video_id_alt_close" = "Cerrar";
+"video_id_alt_back" = "Atrás";
+"video_id_alt_logo" = "Logo";

@@ -23,3 +23,6 @@
 "video_id_timeout_error_description"="Verifique se a conexão com a Internet está correta.";
 "video_id_unknown_error_title"="Ocorreu um erro";
 "video_id_unknown_error_description"="Vamos tentar novamente.";
+"video_id_alt_close" = "Fechar";
+"video_id_alt_back" = "Voltar";
+"video_id_alt_logo" = "Logo";

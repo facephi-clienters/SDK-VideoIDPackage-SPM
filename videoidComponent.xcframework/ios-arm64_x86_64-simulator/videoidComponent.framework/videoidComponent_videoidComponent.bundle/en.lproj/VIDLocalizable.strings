@@ -23,4 +23,7 @@
 "video_id_timeout_error_description"="Make sure that the internet connection is correct.";
 "video_id_unknown_error_title"="An error has occurred";
 "video_id_unknown_error_description"="Let's try again.";
+"video_id_alt_close" = "Close";
+"video_id_alt_back" = "Back";
+"video_id_alt_logo" = "Logo";
 

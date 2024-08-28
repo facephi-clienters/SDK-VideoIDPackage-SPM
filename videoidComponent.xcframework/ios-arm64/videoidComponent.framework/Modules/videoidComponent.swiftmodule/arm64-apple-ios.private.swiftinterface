@@ -16,15 +16,8 @@ import _Concurrency
 import _StringProcessing
 import core
 import licenseCheckerComponent
-public enum VideoIdMode : Swift.String, Swift.Codable {
-  case ONLY_FACE
-  case FACE_DOCUMENT_FRONT
-  case FACE_DOCUMENT_FRONT_BACK
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
+public enum Constants {
+  public static let libraryPackageVersion: Swift.String
 }
 public struct VideoIDConfigurationData : Swift.Codable {
   public var sectionTime: Swift.Int?
@@ -35,15 +28,27 @@ public struct VideoIDConfigurationData : Swift.Codable {
   public var tenantId: Swift.String?
   public var extractionTimeout: Swift.Int?
   public var vibrationEnabled: Swift.Bool?
-  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT_BACK, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = true, extractionTimeout: Swift.Int? = nil, vibrationEnabled: Swift.Bool = false)
+  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT_BACK, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = true, vibrationEnabled: Swift.Bool = false)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+}
+public enum VideoIdMode : Swift.String, Swift.Codable {
+  case ONLY_FACE
+  case FACE_DOCUMENT_FRONT
+  case FACE_DOCUMENT_FRONT_BACK
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 extension videoidComponent.R {
   public enum Animation : Swift.String, Swift.CaseIterable {
     case video_id_anim_doc_and_face
     case video_id_anim_face
     case video_id_anim_loading
+    case video_id_diagnostic_success
+    case video_id_diagnostic_error
     public init?(rawValue: Swift.String)
     public typealias AllCases = [videoidComponent.R.Animation]
     public typealias RawValue = Swift.String
@@ -57,17 +62,16 @@ extension videoidComponent.R {
 }
 extension videoidComponent.R {
   public enum Color : Swift.String, Swift.CaseIterable {
-    case sdkBackgroundColor
-    case sdkBackgroundDisabled
-    case sdkBodyTextColor
-    case sdkCardBackgroundColor
-    case sdkCardTextColor
-    case sdkErrorColor
-    case sdkPrimaryButtonTextColor
     case sdkPrimaryColor
-    case sdkPrimaryVariantColor
+    case sdkBackgroundColor
+    case sdkSecondaryColor
+    case sdkBodyTextColor
     case sdkTitleTextColor
     case sdkSuccessColor
+    case sdkErrorColor
+    case sdkNeutralColor
+    case sdkAccentColor
+    case sdkTopIconsColor
     public init?(rawValue: Swift.String)
     public typealias AllCases = [videoidComponent.R.Color]
     public typealias RawValue = Swift.String
@@ -146,6 +150,24 @@ extension videoidComponent.ThemeVideoId : videoidComponent.ThemeVideoIdProtocol 
     get
   }
 }
+public class ThemeVideoIdFlow : videoidComponent.ThemeVideoIdProtocol {
+  public var name: Swift.String {
+    get
+  }
+  public var fonts: [videoidComponent.R.Font : Swift.String] {
+    get
+  }
+  public var images: [videoidComponent.R.Image : UIKit.UIImage?] {
+    get
+  }
+  public var animations: [videoidComponent.R.Animation : Swift.String] {
+    get
+  }
+  public var colors: [videoidComponent.R.Color : UIKit.UIColor?]
+  public var dimensions: [videoidComponent.R.Dimension : CoreFoundation.CGFloat]
+  public init(customization: core.CommonCustomization)
+  @objc deinit
+}
 public enum ThemeVideoIdManager {
   public static func setup(theme: videoidComponent.ThemeVideoIdProtocol)
 }
@@ -184,7 +206,9 @@ public class VideoIdController {
   public init(data: videoidComponent.VideoIDConfigurationData?, output: @escaping (core.SdkResult<Swift.String>) -> (), viewController: UIKit.UIViewController)
   @objc deinit
 }
-extension videoidComponent.VideoIdController : core.ITrackMethodableController {
+extension videoidComponent.VideoIdController : core.ITrackableController {
+}
+extension videoidComponent.VideoIdController : core.IMethodableController {
   public func start(operationController: core.IOperationableController)
 }
 extension videoidComponent.VideoIdController : core.IFlowableController {
@@ -192,7 +216,7 @@ extension videoidComponent.VideoIdController : core.IFlowableController {
     get
     set(newValue)
   }
-  public var customizationString: Swift.String? {
+  public var customization: core.CommonCustomization? {
     get
     set(newValue)
   }

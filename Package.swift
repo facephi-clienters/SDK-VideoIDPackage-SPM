@@ -18,8 +18,8 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS", .upToNextMinor(from: "4.3.1")),
         .package(url: "https://github.com/daltoniam/Starscream.git", .upToNextMinor(from: "4.0.8")),
-        .package(url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", .upToNextMinor(from: "2.0.0")),
-        .package(url: "git@github.com:airbnb/lottie-spm", .exactItem("4.4.0"))
+        .package(url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", .upToNextMinor(from: "2.1.0")),
+        .package(url: "git@github.com:airbnb/lottie-spm", .upToNextMinor(from: "4.4.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

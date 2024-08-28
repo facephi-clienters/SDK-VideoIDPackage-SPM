@@ -111,12 +111,64 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "Constants",
+        "printedName": "Constants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "libraryPackageVersion",
+            "printedName": "libraryPackageVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent9ConstantsO21libraryPackageVersionSSvpZ",
+            "mangledName": "$s16videoidComponent9ConstantsO21libraryPackageVersionSSvpZ",
+            "moduleName": "videoidComponent",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent9ConstantsO21libraryPackageVersionSSvgZ",
+                "mangledName": "$s16videoidComponent9ConstantsO21libraryPackageVersionSSvgZ",
+                "moduleName": "videoidComponent",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16videoidComponent9ConstantsO",
+        "mangledName": "$s16videoidComponent9ConstantsO",
         "moduleName": "videoidComponent",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -142,8 +194,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "videoidComponent",
         "declAttributes": [
@@ -152,13 +204,24 @@
       },
       {
         "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "videoidComponent",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
       },
       {
         "kind": "Import",
@@ -229,256 +292,6 @@
         "moduleName": "videoidComponent",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VideoIdMode",
-        "printedName": "VideoIdMode",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "ONLY_FACE",
-            "printedName": "ONLY_FACE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(videoidComponent.VideoIdMode.Type) -> videoidComponent.VideoIdMode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoIdMode",
-                    "printedName": "videoidComponent.VideoIdMode",
-                    "usr": "s:16videoidComponent11VideoIdModeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "videoidComponent.VideoIdMode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VideoIdMode",
-                        "printedName": "videoidComponent.VideoIdMode",
-                        "usr": "s:16videoidComponent11VideoIdModeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16videoidComponent11VideoIdModeO9ONLY_FACEyA2CmF",
-            "mangledName": "$s16videoidComponent11VideoIdModeO9ONLY_FACEyA2CmF",
-            "moduleName": "videoidComponent"
-          },
-          {
-            "kind": "Var",
-            "name": "FACE_DOCUMENT_FRONT",
-            "printedName": "FACE_DOCUMENT_FRONT",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(videoidComponent.VideoIdMode.Type) -> videoidComponent.VideoIdMode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoIdMode",
-                    "printedName": "videoidComponent.VideoIdMode",
-                    "usr": "s:16videoidComponent11VideoIdModeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "videoidComponent.VideoIdMode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VideoIdMode",
-                        "printedName": "videoidComponent.VideoIdMode",
-                        "usr": "s:16videoidComponent11VideoIdModeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16videoidComponent11VideoIdModeO19FACE_DOCUMENT_FRONTyA2CmF",
-            "mangledName": "$s16videoidComponent11VideoIdModeO19FACE_DOCUMENT_FRONTyA2CmF",
-            "moduleName": "videoidComponent"
-          },
-          {
-            "kind": "Var",
-            "name": "FACE_DOCUMENT_FRONT_BACK",
-            "printedName": "FACE_DOCUMENT_FRONT_BACK",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(videoidComponent.VideoIdMode.Type) -> videoidComponent.VideoIdMode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoIdMode",
-                    "printedName": "videoidComponent.VideoIdMode",
-                    "usr": "s:16videoidComponent11VideoIdModeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "videoidComponent.VideoIdMode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "VideoIdMode",
-                        "printedName": "videoidComponent.VideoIdMode",
-                        "usr": "s:16videoidComponent11VideoIdModeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16videoidComponent11VideoIdModeO24FACE_DOCUMENT_FRONT_BACKyA2CmF",
-            "mangledName": "$s16videoidComponent11VideoIdModeO24FACE_DOCUMENT_FRONT_BACKyA2CmF",
-            "moduleName": "videoidComponent"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "videoidComponent.VideoIdMode?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VideoIdMode",
-                    "printedName": "videoidComponent.VideoIdMode",
-                    "usr": "s:16videoidComponent11VideoIdModeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16videoidComponent11VideoIdModeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s16videoidComponent11VideoIdModeO8rawValueACSgSS_tcfc",
-            "moduleName": "videoidComponent",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16videoidComponent11VideoIdModeO8rawValueSSvp",
-            "mangledName": "$s16videoidComponent11VideoIdModeO8rawValueSSvp",
-            "moduleName": "videoidComponent",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16videoidComponent11VideoIdModeO8rawValueSSvg",
-                "mangledName": "$s16videoidComponent11VideoIdModeO8rawValueSSvg",
-                "moduleName": "videoidComponent",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:16videoidComponent11VideoIdModeO",
-        "mangledName": "$s16videoidComponent11VideoIdModeO",
-        "moduleName": "videoidComponent",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
         ]
       },
       {
@@ -1371,7 +1184,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sectionTime:mode:url:apiKey:tenantId:showCompletedTutorial:extractionTimeout:vibrationEnabled:)",
+            "printedName": "init(sectionTime:mode:url:apiKey:tenantId:showCompletedTutorial:vibrationEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1447,21 +1260,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -1469,8 +1267,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial17extractionTimeout16vibrationEnabledACSi_AA0cM4ModeOSSSgA2NSbSiSgSbtcfc",
-            "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial17extractionTimeout16vibrationEnabledACSi_AA0cM4ModeOSSSgA2NSbSiSgSbtcfc",
+            "usr": "s:16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial16vibrationEnabledACSi_AA0cM4ModeOSSSgA2MS2btcfc",
+            "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial16vibrationEnabledACSi_AA0cM4ModeOSSSgA2MS2btcfc",
             "moduleName": "videoidComponent",
             "declAttributes": [
               "AccessControl"
@@ -1571,6 +1369,256 @@
         "moduleName": "videoidComponent",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoIdMode",
+        "printedName": "VideoIdMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ONLY_FACE",
+            "printedName": "ONLY_FACE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(videoidComponent.VideoIdMode.Type) -> videoidComponent.VideoIdMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoIdMode",
+                    "printedName": "videoidComponent.VideoIdMode",
+                    "usr": "s:16videoidComponent11VideoIdModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "videoidComponent.VideoIdMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoIdMode",
+                        "printedName": "videoidComponent.VideoIdMode",
+                        "usr": "s:16videoidComponent11VideoIdModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16videoidComponent11VideoIdModeO9ONLY_FACEyA2CmF",
+            "mangledName": "$s16videoidComponent11VideoIdModeO9ONLY_FACEyA2CmF",
+            "moduleName": "videoidComponent"
+          },
+          {
+            "kind": "Var",
+            "name": "FACE_DOCUMENT_FRONT",
+            "printedName": "FACE_DOCUMENT_FRONT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(videoidComponent.VideoIdMode.Type) -> videoidComponent.VideoIdMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoIdMode",
+                    "printedName": "videoidComponent.VideoIdMode",
+                    "usr": "s:16videoidComponent11VideoIdModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "videoidComponent.VideoIdMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoIdMode",
+                        "printedName": "videoidComponent.VideoIdMode",
+                        "usr": "s:16videoidComponent11VideoIdModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16videoidComponent11VideoIdModeO19FACE_DOCUMENT_FRONTyA2CmF",
+            "mangledName": "$s16videoidComponent11VideoIdModeO19FACE_DOCUMENT_FRONTyA2CmF",
+            "moduleName": "videoidComponent"
+          },
+          {
+            "kind": "Var",
+            "name": "FACE_DOCUMENT_FRONT_BACK",
+            "printedName": "FACE_DOCUMENT_FRONT_BACK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(videoidComponent.VideoIdMode.Type) -> videoidComponent.VideoIdMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoIdMode",
+                    "printedName": "videoidComponent.VideoIdMode",
+                    "usr": "s:16videoidComponent11VideoIdModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "videoidComponent.VideoIdMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoIdMode",
+                        "printedName": "videoidComponent.VideoIdMode",
+                        "usr": "s:16videoidComponent11VideoIdModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16videoidComponent11VideoIdModeO24FACE_DOCUMENT_FRONT_BACKyA2CmF",
+            "mangledName": "$s16videoidComponent11VideoIdModeO24FACE_DOCUMENT_FRONT_BACKyA2CmF",
+            "moduleName": "videoidComponent"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "videoidComponent.VideoIdMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoIdMode",
+                    "printedName": "videoidComponent.VideoIdMode",
+                    "usr": "s:16videoidComponent11VideoIdModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16videoidComponent11VideoIdModeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16videoidComponent11VideoIdModeO8rawValueACSgSS_tcfc",
+            "moduleName": "videoidComponent",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent11VideoIdModeO8rawValueSSvp",
+            "mangledName": "$s16videoidComponent11VideoIdModeO8rawValueSSvp",
+            "moduleName": "videoidComponent",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent11VideoIdModeO8rawValueSSvg",
+                "mangledName": "$s16videoidComponent11VideoIdModeO8rawValueSSvg",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16videoidComponent11VideoIdModeO",
+        "mangledName": "$s16videoidComponent11VideoIdModeO",
+        "moduleName": "videoidComponent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -1703,6 +1751,13 @@
         "kind": "Import",
         "name": "Lottie",
         "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
         "declKind": "Import",
         "moduleName": "videoidComponent"
       },
@@ -1875,6 +1930,80 @@
                 "declKind": "EnumElement",
                 "usr": "s:16videoidComponent1RO9AnimationO21video_id_anim_loadingyA2EmF",
                 "mangledName": "$s16videoidComponent1RO9AnimationO21video_id_anim_loadingyA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "video_id_diagnostic_success",
+                "printedName": "video_id_diagnostic_success",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Animation.Type) -> videoidComponent.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "videoidComponent.R.Animation",
+                        "usr": "s:16videoidComponent1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "videoidComponent.R.Animation",
+                            "usr": "s:16videoidComponent1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO9AnimationO27video_id_diagnostic_successyA2EmF",
+                "mangledName": "$s16videoidComponent1RO9AnimationO27video_id_diagnostic_successyA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "video_id_diagnostic_error",
+                "printedName": "video_id_diagnostic_error",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Animation.Type) -> videoidComponent.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "videoidComponent.R.Animation",
+                        "usr": "s:16videoidComponent1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "videoidComponent.R.Animation",
+                            "usr": "s:16videoidComponent1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO9AnimationO25video_id_diagnostic_erroryA2EmF",
+                "mangledName": "$s16videoidComponent1RO9AnimationO25video_id_diagnostic_erroryA2EmF",
                 "moduleName": "videoidComponent"
               },
               {
@@ -2089,265 +2218,6 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "sdkBackgroundColor",
-                "printedName": "sdkBackgroundColor",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "videoidComponent.R.Color",
-                        "usr": "s:16videoidComponent1RO5ColorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "videoidComponent.R.Color",
-                            "usr": "s:16videoidComponent1RO5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO013sdkBackgroundC0yA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO013sdkBackgroundC0yA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "sdkBackgroundDisabled",
-                "printedName": "sdkBackgroundDisabled",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "videoidComponent.R.Color",
-                        "usr": "s:16videoidComponent1RO5ColorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "videoidComponent.R.Color",
-                            "usr": "s:16videoidComponent1RO5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO21sdkBackgroundDisabledyA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO21sdkBackgroundDisabledyA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "sdkBodyTextColor",
-                "printedName": "sdkBodyTextColor",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "videoidComponent.R.Color",
-                        "usr": "s:16videoidComponent1RO5ColorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "videoidComponent.R.Color",
-                            "usr": "s:16videoidComponent1RO5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO011sdkBodyTextC0yA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO011sdkBodyTextC0yA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "sdkCardBackgroundColor",
-                "printedName": "sdkCardBackgroundColor",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "videoidComponent.R.Color",
-                        "usr": "s:16videoidComponent1RO5ColorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "videoidComponent.R.Color",
-                            "usr": "s:16videoidComponent1RO5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO017sdkCardBackgroundC0yA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO017sdkCardBackgroundC0yA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "sdkCardTextColor",
-                "printedName": "sdkCardTextColor",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "videoidComponent.R.Color",
-                        "usr": "s:16videoidComponent1RO5ColorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "videoidComponent.R.Color",
-                            "usr": "s:16videoidComponent1RO5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO011sdkCardTextC0yA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO011sdkCardTextC0yA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "sdkErrorColor",
-                "printedName": "sdkErrorColor",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "videoidComponent.R.Color",
-                        "usr": "s:16videoidComponent1RO5ColorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "videoidComponent.R.Color",
-                            "usr": "s:16videoidComponent1RO5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO08sdkErrorC0yA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO08sdkErrorC0yA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "sdkPrimaryButtonTextColor",
-                "printedName": "sdkPrimaryButtonTextColor",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Color",
-                        "printedName": "videoidComponent.R.Color",
-                        "usr": "s:16videoidComponent1RO5ColorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Color.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Color",
-                            "printedName": "videoidComponent.R.Color",
-                            "usr": "s:16videoidComponent1RO5ColorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO020sdkPrimaryButtonTextC0yA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO020sdkPrimaryButtonTextC0yA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
                 "name": "sdkPrimaryColor",
                 "printedName": "sdkPrimaryColor",
                 "children": [
@@ -2385,8 +2255,8 @@
               },
               {
                 "kind": "Var",
-                "name": "sdkPrimaryVariantColor",
-                "printedName": "sdkPrimaryVariantColor",
+                "name": "sdkBackgroundColor",
+                "printedName": "sdkBackgroundColor",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -2416,8 +2286,82 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ColorO017sdkPrimaryVariantC0yA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ColorO017sdkPrimaryVariantC0yA2EmF",
+                "usr": "s:16videoidComponent1RO5ColorO013sdkBackgroundC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO013sdkBackgroundC0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "sdkSecondaryColor",
+                "printedName": "sdkSecondaryColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "videoidComponent.R.Color",
+                            "usr": "s:16videoidComponent1RO5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ColorO012sdkSecondaryC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO012sdkSecondaryC0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "sdkBodyTextColor",
+                "printedName": "sdkBodyTextColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "videoidComponent.R.Color",
+                            "usr": "s:16videoidComponent1RO5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ColorO011sdkBodyTextC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO011sdkBodyTextC0yA2EmF",
                 "moduleName": "videoidComponent"
               },
               {
@@ -2492,6 +2436,154 @@
                 "declKind": "EnumElement",
                 "usr": "s:16videoidComponent1RO5ColorO010sdkSuccessC0yA2EmF",
                 "mangledName": "$s16videoidComponent1RO5ColorO010sdkSuccessC0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "sdkErrorColor",
+                "printedName": "sdkErrorColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "videoidComponent.R.Color",
+                            "usr": "s:16videoidComponent1RO5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ColorO08sdkErrorC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO08sdkErrorC0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "sdkNeutralColor",
+                "printedName": "sdkNeutralColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "videoidComponent.R.Color",
+                            "usr": "s:16videoidComponent1RO5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ColorO010sdkNeutralC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO010sdkNeutralC0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "sdkAccentColor",
+                "printedName": "sdkAccentColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "videoidComponent.R.Color",
+                            "usr": "s:16videoidComponent1RO5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ColorO09sdkAccentC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO09sdkAccentC0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "sdkTopIconsColor",
+                "printedName": "sdkTopIconsColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "videoidComponent.R.Color",
+                            "usr": "s:16videoidComponent1RO5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ColorO011sdkTopIconsC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO011sdkTopIconsC0yA2EmF",
                 "moduleName": "videoidComponent"
               },
               {
@@ -4121,6 +4213,618 @@
         "moduleName": "videoidComponent"
       },
       {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThemeVideoIdFlow",
+        "printedName": "ThemeVideoIdFlow",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16ThemeVideoIdFlowC4nameSSvp",
+            "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC4nameSSvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC4nameSSvg",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC4nameSSvg",
+                "moduleName": "videoidComponent",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fonts",
+            "printedName": "fonts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[videoidComponent.R.Font : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Font",
+                    "printedName": "videoidComponent.R.Font",
+                    "usr": "s:16videoidComponent1RO4FontO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16ThemeVideoIdFlowC5fontsSDyAA1RO4FontOSSGvp",
+            "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC5fontsSDyAA1RO4FontOSSGvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[videoidComponent.R.Font : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Font",
+                        "printedName": "videoidComponent.R.Font",
+                        "usr": "s:16videoidComponent1RO4FontO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC5fontsSDyAA1RO4FontOSSGvg",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC5fontsSDyAA1RO4FontOSSGvg",
+                "moduleName": "videoidComponent",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "images",
+            "printedName": "images",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[videoidComponent.R.Image : UIKit.UIImage?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "videoidComponent.R.Image",
+                    "usr": "s:16videoidComponent1RO5ImageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16ThemeVideoIdFlowC6imagesSDyAA1RO5ImageOSo7UIImageCSgGvp",
+            "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC6imagesSDyAA1RO5ImageOSo7UIImageCSgGvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[videoidComponent.R.Image : UIKit.UIImage?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "videoidComponent.R.Image",
+                        "usr": "s:16videoidComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIImage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC6imagesSDyAA1RO5ImageOSo7UIImageCSgGvg",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC6imagesSDyAA1RO5ImageOSo7UIImageCSgGvg",
+                "moduleName": "videoidComponent",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animations",
+            "printedName": "animations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[videoidComponent.R.Animation : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animation",
+                    "printedName": "videoidComponent.R.Animation",
+                    "usr": "s:16videoidComponent1RO9AnimationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16ThemeVideoIdFlowC10animationsSDyAA1RO9AnimationOSSGvp",
+            "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC10animationsSDyAA1RO9AnimationOSSGvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[videoidComponent.R.Animation : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "videoidComponent.R.Animation",
+                        "usr": "s:16videoidComponent1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC10animationsSDyAA1RO9AnimationOSSGvg",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC10animationsSDyAA1RO9AnimationOSSGvg",
+                "moduleName": "videoidComponent",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colors",
+            "printedName": "colors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[videoidComponent.R.Color : UIKit.UIColor?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "videoidComponent.R.Color",
+                    "usr": "s:16videoidComponent1RO5ColorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvp",
+            "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[videoidComponent.R.Color : UIKit.UIColor?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIColor?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvg",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvg",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[videoidComponent.R.Color : UIKit.UIColor?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIColor?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIColor",
+                            "printedName": "UIKit.UIColor",
+                            "usr": "c:objc(cs)UIColor"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvs",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvs",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvM",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC6colorsSDyAA1RO5ColorOSo7UIColorCSgGvM",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dimensions",
+            "printedName": "dimensions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[videoidComponent.R.Dimension : CoreGraphics.CGFloat]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dimension",
+                    "printedName": "videoidComponent.R.Dimension",
+                    "usr": "s:16videoidComponent1RO9DimensionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO12CoreGraphics7CGFloatVGvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[videoidComponent.R.Dimension : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dimension",
+                        "printedName": "videoidComponent.R.Dimension",
+                        "usr": "s:16videoidComponent1RO9DimensionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO12CoreGraphics7CGFloatVGvg",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[videoidComponent.R.Dimension : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dimension",
+                        "printedName": "videoidComponent.R.Dimension",
+                        "usr": "s:16videoidComponent1RO9DimensionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO14CoreFoundation7CGFloatVGvs",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO12CoreGraphics7CGFloatVGvs",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO14CoreFoundation7CGFloatVGvM",
+                "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC10dimensionsSDyAA1RO9DimensionO12CoreGraphics7CGFloatVGvM",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(customization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeVideoIdFlow",
+                "printedName": "videoidComponent.ThemeVideoIdFlow",
+                "usr": "s:16videoidComponent16ThemeVideoIdFlowC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonCustomization",
+                "printedName": "core.CommonCustomization",
+                "usr": "s:4core19CommonCustomizationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16videoidComponent16ThemeVideoIdFlowC13customizationAC4core19CommonCustomizationV_tcfc",
+            "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC13customizationAC4core19CommonCustomizationV_tcfc",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16videoidComponent16ThemeVideoIdFlowC",
+        "mangledName": "$s16videoidComponent16ThemeVideoIdFlowC",
+        "moduleName": "videoidComponent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ThemeVideoIdProtocol",
+            "printedName": "ThemeVideoIdProtocol",
+            "usr": "s:16videoidComponent20ThemeVideoIdProtocolP",
+            "mangledName": "$s16videoidComponent20ThemeVideoIdProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "videoidComponent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ThemeVideoIdManager",
         "printedName": "ThemeVideoIdManager",
@@ -4938,6 +5642,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
         "declKind": "Import",
         "moduleName": "videoidComponent"
       },
@@ -5914,27 +6625,27 @@
           },
           {
             "kind": "Var",
-            "name": "customizationString",
-            "printedName": "customizationString",
+            "name": "customization",
+            "printedName": "customization",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "core.CommonCustomization?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "CommonCustomization",
+                    "printedName": "core.CommonCustomization",
+                    "usr": "s:4core19CommonCustomizationV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16videoidComponent17VideoIdControllerC19customizationStringSSSgvp",
-            "mangledName": "$s16videoidComponent17VideoIdControllerC19customizationStringSSSgvp",
+            "usr": "s:16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvp",
+            "mangledName": "$s16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvp",
             "moduleName": "videoidComponent",
             "declAttributes": [
               "AccessControl"
@@ -5949,21 +6660,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "core.CommonCustomization?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "CommonCustomization",
+                        "printedName": "core.CommonCustomization",
+                        "usr": "s:4core19CommonCustomizationV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16videoidComponent17VideoIdControllerC19customizationStringSSSgvg",
-                "mangledName": "$s16videoidComponent17VideoIdControllerC19customizationStringSSSgvg",
+                "usr": "s:16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvg",
+                "mangledName": "$s16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvg",
                 "moduleName": "videoidComponent",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -5981,21 +6692,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "core.CommonCustomization?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "CommonCustomization",
+                        "printedName": "core.CommonCustomization",
+                        "usr": "s:4core19CommonCustomizationV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16videoidComponent17VideoIdControllerC19customizationStringSSSgvs",
-                "mangledName": "$s16videoidComponent17VideoIdControllerC19customizationStringSSSgvs",
+                "usr": "s:16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvs",
+                "mangledName": "$s16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvs",
                 "moduleName": "videoidComponent",
                 "isFromExtension": true,
                 "accessorKind": "set"
@@ -6012,8 +6723,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16videoidComponent17VideoIdControllerC19customizationStringSSSgvM",
-                "mangledName": "$s16videoidComponent17VideoIdControllerC19customizationStringSSSgvM",
+                "usr": "s:16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvM",
+                "mangledName": "$s16videoidComponent17VideoIdControllerC13customization4core19CommonCustomizationVSgvM",
                 "moduleName": "videoidComponent",
                 "implicit": true,
                 "isFromExtension": true,
@@ -6032,13 +6743,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "ITrackMethodableController",
-            "printedName": "ITrackMethodableController",
-            "usr": "s:4core26ITrackMethodableControllerP",
-            "mangledName": "$s4core26ITrackMethodableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ITrackableController",
             "printedName": "ITrackableController",
             "usr": "s:4core20ITrackableControllerP",
@@ -6046,17 +6750,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "IMethodableController",
-            "printedName": "IMethodableController",
-            "usr": "s:4core21IMethodableControllerP",
-            "mangledName": "$s4core21IMethodableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "IBehaviorableController",
             "printedName": "IBehaviorableController",
             "usr": "s:4core23IBehaviorableControllerP",
             "mangledName": "$s4core23IBehaviorableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IMethodableController",
+            "printedName": "IMethodableController",
+            "usr": "s:4core21IMethodableControllerP",
+            "mangledName": "$s4core21IMethodableControllerP"
           },
           {
             "kind": "Conformance",
@@ -6285,13 +6989,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "ITrackMethodableController",
-            "printedName": "ITrackMethodableController",
-            "usr": "s:4core26ITrackMethodableControllerP",
-            "mangledName": "$s4core26ITrackMethodableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "ITrackableController",
             "printedName": "ITrackableController",
             "usr": "s:4core20ITrackableControllerP",
@@ -6299,17 +6996,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "IMethodableController",
-            "printedName": "IMethodableController",
-            "usr": "s:4core21IMethodableControllerP",
-            "mangledName": "$s4core21IMethodableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "IBehaviorableController",
             "printedName": "IBehaviorableController",
             "usr": "s:4core23IBehaviorableControllerP",
             "mangledName": "$s4core23IBehaviorableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IMethodableController",
+            "printedName": "IMethodableController",
+            "usr": "s:4core21IMethodableControllerP",
+            "mangledName": "$s4core21IMethodableControllerP"
           },
           {
             "kind": "Conformance",
@@ -6397,7 +7094,7 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/AgoraExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 5878,
+      "offset": 4686,
       "length": 5,
       "value": "false"
     },
@@ -6698,84 +7395,84 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2688,
+      "offset": 2678,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2698,
+      "offset": 2688,
       "length": 16,
       "value": "\"fixed portrait\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2816,
+      "offset": 2796,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2826,
+      "offset": 2806,
       "length": 17,
       "value": "\"fixed landscape\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2930,
+      "offset": 2900,
       "length": 6,
       "value": "\"area\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 2960,
+      "offset": 2930,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 3009,
+      "offset": 2979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "StringLiteral",
-      "offset": 3019,
+      "offset": 2989,
       "length": 10,
       "value": "\"adaptive\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 3110,
+      "offset": 3070,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "StringLiteral",
-      "offset": 3120,
+      "offset": 3080,
       "length": 16,
       "value": "\"fixed portrait\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 3238,
+      "offset": 3188,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/GlobalSettings.swift",
       "kind": "StringLiteral",
-      "offset": 3248,
+      "offset": 3198,
       "length": 17,
       "value": "\"fixed landscape\""
     },
@@ -6789,35 +7486,35 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/LogUtils.swift",
       "kind": "Array",
-      "offset": 544,
+      "offset": 547,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 586,
       "length": 73,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 597,
+      "offset": 601,
       "length": 1,
       "value": "\"\/app-\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 636,
+      "offset": 640,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 654,
       "length": 1,
       "value": "\".log\""
     },
@@ -7027,51 +7724,149 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/VideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 380,
+      "offset": 379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Agora\/VideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 405,
+      "offset": 404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 139,
+      "offset": 146,
       "length": 32,
       "value": "\"com.facephi.video_id_component\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 203,
+      "offset": 210,
       "length": 20,
       "value": "\"video_id_component\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 263,
+      "offset": 277,
       "length": 7,
-      "value": "\"2.0.2\""
+      "value": "\"2.1.2\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 308,
+      "offset": 322,
       "length": 4,
       "value": "3000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 345,
+      "offset": 359,
       "length": 5,
       "value": "60000"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 15,
+      "value": "\"anim_doc_dl_h\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 15,
+      "value": "\"anim_doc_dl_m\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 15,
+      "value": "\"anim_doc_id_h\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 15,
+      "value": "\"anim_doc_id_m\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 17,
+      "value": "\"anim_doc_pass_h\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 17,
+      "value": "\"anim_doc_pass_m\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 13,
+      "value": "\"anim_doc_hc\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 15,
+      "value": "\"anim_doc_dl_h\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 15,
+      "value": "\"anim_doc_dl_m\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 15,
+      "value": "\"anim_doc_id_h\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 15,
+      "value": "\"anim_doc_id_m\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 17,
+      "value": "\"anim_doc_pass_h\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 17,
+      "value": "\"anim_doc_pass_m\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 13,
+      "value": "\"anim_doc_hc\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
@@ -7142,34 +7937,6 @@
       "offset": 724,
       "length": 4,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/UIView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1195,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/UIView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1686,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/UIViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 236,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/UIViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1430,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
@@ -7265,28 +8032,28 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "IntegerLiteral",
-      "offset": 280,
+      "offset": 441,
       "length": 5,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "IntegerLiteral",
-      "offset": 735,
+      "offset": 565,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 886,
+      "offset": 716,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 948,
+      "offset": 747,
       "length": 5,
       "value": "false"
     },
@@ -7405,35 +8172,35 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Components\/FPRoundedButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 407,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Components\/FPRoundedButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 469,
+      "offset": 462,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Views\/VideoIdRecordingView\/VideoIdRecordingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 931,
+      "offset": 978,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Views\/VideoIdRecordingView\/VideoIdRecordingView.swift",
       "kind": "FloatLiteral",
-      "offset": 972,
+      "offset": 1019,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Views\/VideoIdTutorialView\/VideoIdTutorialView.swift",
       "kind": "BooleanLiteral",
-      "offset": 570,
+      "offset": 587,
       "length": 5,
       "value": "false"
     },
