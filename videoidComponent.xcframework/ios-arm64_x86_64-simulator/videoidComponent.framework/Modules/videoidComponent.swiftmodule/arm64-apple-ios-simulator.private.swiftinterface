@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name videoidComponent
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name videoidComponent
+import AVFoundation.AVCaptureDevice
 import AVFoundation
 import AgoraRtcKit
 import Foundation
@@ -12,6 +13,7 @@ import Network
 import Starscream
 import Swift
 import UIKit
+import Vision
 import _Concurrency
 import _StringProcessing
 import core
@@ -26,9 +28,10 @@ public struct VideoIDConfigurationData : Swift.Codable {
   public var url: Swift.String?
   public var apiKey: Swift.String?
   public var tenantId: Swift.String?
-  public var extractionTimeout: Swift.Int?
+  public var timeoutServerConnection: Swift.Int?
+  public var timeoutFaceDetection: Swift.Int?
   public var vibrationEnabled: Swift.Bool?
-  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT_BACK, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = true, vibrationEnabled: Swift.Bool = false)
+  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT_BACK, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = true, vibrationEnabled: Swift.Bool = false, timeoutServerConnection: Swift.Int? = 30000, timeoutFaceDetection: Swift.Int? = 15000)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -47,8 +50,8 @@ extension videoidComponent.R {
     case video_id_anim_doc_and_face
     case video_id_anim_face
     case video_id_anim_loading
-    case video_id_diagnostic_success
-    case video_id_diagnostic_error
+    case video_id_anim_diagnostic_success
+    case video_id_anim_diagnostic_error
     public init?(rawValue: Swift.String)
     public typealias AllCases = [videoidComponent.R.Animation]
     public typealias RawValue = Swift.String
@@ -109,19 +112,17 @@ extension videoidComponent.R {
 }
 extension videoidComponent.R {
   public enum Image : Swift.String, Swift.CaseIterable {
+    case ic_sdk_close_arrow
+    case ic_sdk_close
+    case ic_sdk_unknown_error
     case ic_video_id_back_id
     case ic_video_id_check
-    case ic_sdk_close
     case ic_video_id_front_id
+    case ic_video_id_logo
     case ic_video_id_record_back
     case ic_video_id_record_face
     case ic_video_id_record_front
     case ic_video_id_user
-    case ic_sdk_close_arrow
-    case ic_video_id_logo
-    case ic_sdk_error_connection
-    case ic_sdk_error_timeout
-    case ic_sdk_unknown_error
     public init?(rawValue: Swift.String)
     public typealias AllCases = [videoidComponent.R.Image]
     public typealias RawValue = Swift.String

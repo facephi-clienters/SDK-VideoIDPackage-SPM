@@ -225,6 +225,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "videoidComponent",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation.AVCaptureDevice",
+        "printedName": "AVFoundation.AVCaptureDevice",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "Import",
         "name": "AgoraRtcKit",
         "printedName": "AgoraRtcKit",
         "declKind": "Import",
@@ -244,6 +261,13 @@
         "kind": "Import",
         "name": "core",
         "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
         "declKind": "Import",
         "moduleName": "videoidComponent"
       },
@@ -963,8 +987,8 @@
           },
           {
             "kind": "Var",
-            "name": "extractionTimeout",
-            "printedName": "extractionTimeout",
+            "name": "timeoutServerConnection",
+            "printedName": "timeoutServerConnection",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -982,8 +1006,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvp",
-            "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvp",
+            "usr": "s:16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvp",
+            "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvp",
             "moduleName": "videoidComponent",
             "declAttributes": [
               "HasInitialValue",
@@ -1013,8 +1037,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvg",
-                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvg",
+                "usr": "s:16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvg",
+                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvg",
                 "moduleName": "videoidComponent",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1045,8 +1069,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvs",
-                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvs",
+                "usr": "s:16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvs",
+                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvs",
                 "moduleName": "videoidComponent",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1063,8 +1087,118 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvM",
-                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV17extractionTimeoutSiSgvM",
+                "usr": "s:16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvM",
+                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV23timeoutServerConnectionSiSgvM",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutFaceDetection",
+            "printedName": "timeoutFaceDetection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvp",
+            "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvg",
+                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvg",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvs",
+                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvs",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvM",
+                "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV20timeoutFaceDetectionSiSgvM",
                 "moduleName": "videoidComponent",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1184,7 +1318,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sectionTime:mode:url:apiKey:tenantId:showCompletedTutorial:vibrationEnabled:)",
+            "printedName": "init(sectionTime:mode:url:apiKey:tenantId:showCompletedTutorial:vibrationEnabled:timeoutServerConnection:timeoutFaceDetection:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1264,11 +1398,41 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial16vibrationEnabledACSi_AA0cM4ModeOSSSgA2MS2btcfc",
-            "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial16vibrationEnabledACSi_AA0cM4ModeOSSSgA2MS2btcfc",
+            "usr": "s:16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial16vibrationEnabled23timeoutServerConnection0S13FaceDetectionACSi_AA0cM4ModeOSSSgA2OS2bSiSgAPtcfc",
+            "mangledName": "$s16videoidComponent24VideoIDConfigurationDataV11sectionTime4mode3url6apiKey8tenantId21showCompletedTutorial16vibrationEnabled23timeoutServerConnection0S13FaceDetectionACSi_AA0cM4ModeOSSSgA2OS2bSiSgAPtcfc",
             "moduleName": "videoidComponent",
             "declAttributes": [
               "AccessControl"
@@ -1633,47 +1797,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "videoidComponent",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "videoidComponent"
-      },
-      {
-        "kind": "Import",
-        "name": "core",
-        "printedName": "core",
-        "declKind": "Import",
-        "moduleName": "videoidComponent",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "videoidComponent"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "videoidComponent"
-      },
-      {
-        "kind": "Import",
         "name": "core",
         "printedName": "core",
         "declKind": "Import",
@@ -1934,8 +2057,8 @@
               },
               {
                 "kind": "Var",
-                "name": "video_id_diagnostic_success",
-                "printedName": "video_id_diagnostic_success",
+                "name": "video_id_anim_diagnostic_success",
+                "printedName": "video_id_anim_diagnostic_success",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -1965,14 +2088,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO9AnimationO27video_id_diagnostic_successyA2EmF",
-                "mangledName": "$s16videoidComponent1RO9AnimationO27video_id_diagnostic_successyA2EmF",
+                "usr": "s:16videoidComponent1RO9AnimationO32video_id_anim_diagnostic_successyA2EmF",
+                "mangledName": "$s16videoidComponent1RO9AnimationO32video_id_anim_diagnostic_successyA2EmF",
                 "moduleName": "videoidComponent"
               },
               {
                 "kind": "Var",
-                "name": "video_id_diagnostic_error",
-                "printedName": "video_id_diagnostic_error",
+                "name": "video_id_anim_diagnostic_error",
+                "printedName": "video_id_anim_diagnostic_error",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -2002,8 +2125,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO9AnimationO25video_id_diagnostic_erroryA2EmF",
-                "mangledName": "$s16videoidComponent1RO9AnimationO25video_id_diagnostic_erroryA2EmF",
+                "usr": "s:16videoidComponent1RO9AnimationO30video_id_anim_diagnostic_erroryA2EmF",
+                "mangledName": "$s16videoidComponent1RO9AnimationO30video_id_anim_diagnostic_erroryA2EmF",
                 "moduleName": "videoidComponent"
               },
               {
@@ -3266,6 +3389,117 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "ic_sdk_close_arrow",
+                "printedName": "ic_sdk_close_arrow",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "videoidComponent.R.Image",
+                        "usr": "s:16videoidComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "videoidComponent.R.Image",
+                            "usr": "s:16videoidComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ImageO18ic_sdk_close_arrowyA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ImageO18ic_sdk_close_arrowyA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "ic_sdk_close",
+                "printedName": "ic_sdk_close",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "videoidComponent.R.Image",
+                        "usr": "s:16videoidComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "videoidComponent.R.Image",
+                            "usr": "s:16videoidComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ImageO12ic_sdk_closeyA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ImageO12ic_sdk_closeyA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "ic_sdk_unknown_error",
+                "printedName": "ic_sdk_unknown_error",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "videoidComponent.R.Image",
+                        "usr": "s:16videoidComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "videoidComponent.R.Image",
+                            "usr": "s:16videoidComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ImageO20ic_sdk_unknown_erroryA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ImageO20ic_sdk_unknown_erroryA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
                 "name": "ic_video_id_back_id",
                 "printedName": "ic_video_id_back_id",
                 "children": [
@@ -3340,43 +3574,6 @@
               },
               {
                 "kind": "Var",
-                "name": "ic_sdk_close",
-                "printedName": "ic_sdk_close",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "videoidComponent.R.Image",
-                        "usr": "s:16videoidComponent1RO5ImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Image.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Image",
-                            "printedName": "videoidComponent.R.Image",
-                            "usr": "s:16videoidComponent1RO5ImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ImageO12ic_sdk_closeyA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ImageO12ic_sdk_closeyA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
                 "name": "ic_video_id_front_id",
                 "printedName": "ic_video_id_front_id",
                 "children": [
@@ -3410,6 +3607,43 @@
                 "declKind": "EnumElement",
                 "usr": "s:16videoidComponent1RO5ImageO018ic_video_id_front_F0yA2EmF",
                 "mangledName": "$s16videoidComponent1RO5ImageO018ic_video_id_front_F0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
+                "name": "ic_video_id_logo",
+                "printedName": "ic_video_id_logo",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "videoidComponent.R.Image",
+                        "usr": "s:16videoidComponent1RO5ImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Image.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Image",
+                            "printedName": "videoidComponent.R.Image",
+                            "usr": "s:16videoidComponent1RO5ImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ImageO16ic_video_id_logoyA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ImageO16ic_video_id_logoyA2EmF",
                 "moduleName": "videoidComponent"
               },
               {
@@ -3558,191 +3792,6 @@
                 "declKind": "EnumElement",
                 "usr": "s:16videoidComponent1RO5ImageO16ic_video_id_useryA2EmF",
                 "mangledName": "$s16videoidComponent1RO5ImageO16ic_video_id_useryA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "ic_sdk_close_arrow",
-                "printedName": "ic_sdk_close_arrow",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "videoidComponent.R.Image",
-                        "usr": "s:16videoidComponent1RO5ImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Image.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Image",
-                            "printedName": "videoidComponent.R.Image",
-                            "usr": "s:16videoidComponent1RO5ImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ImageO18ic_sdk_close_arrowyA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ImageO18ic_sdk_close_arrowyA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "ic_video_id_logo",
-                "printedName": "ic_video_id_logo",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "videoidComponent.R.Image",
-                        "usr": "s:16videoidComponent1RO5ImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Image.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Image",
-                            "printedName": "videoidComponent.R.Image",
-                            "usr": "s:16videoidComponent1RO5ImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ImageO16ic_video_id_logoyA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ImageO16ic_video_id_logoyA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "ic_sdk_error_connection",
-                "printedName": "ic_sdk_error_connection",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "videoidComponent.R.Image",
-                        "usr": "s:16videoidComponent1RO5ImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Image.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Image",
-                            "printedName": "videoidComponent.R.Image",
-                            "usr": "s:16videoidComponent1RO5ImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ImageO23ic_sdk_error_connectionyA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ImageO23ic_sdk_error_connectionyA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "ic_sdk_error_timeout",
-                "printedName": "ic_sdk_error_timeout",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "videoidComponent.R.Image",
-                        "usr": "s:16videoidComponent1RO5ImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Image.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Image",
-                            "printedName": "videoidComponent.R.Image",
-                            "usr": "s:16videoidComponent1RO5ImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ImageO20ic_sdk_error_timeoutyA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ImageO20ic_sdk_error_timeoutyA2EmF",
-                "moduleName": "videoidComponent"
-              },
-              {
-                "kind": "Var",
-                "name": "ic_sdk_unknown_error",
-                "printedName": "ic_sdk_unknown_error",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(videoidComponent.R.Image.Type) -> videoidComponent.R.Image",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "videoidComponent.R.Image",
-                        "usr": "s:16videoidComponent1RO5ImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "videoidComponent.R.Image.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Image",
-                            "printedName": "videoidComponent.R.Image",
-                            "usr": "s:16videoidComponent1RO5ImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:16videoidComponent1RO5ImageO20ic_sdk_unknown_erroryA2EmF",
-                "mangledName": "$s16videoidComponent1RO5ImageO20ic_sdk_unknown_erroryA2EmF",
                 "moduleName": "videoidComponent"
               },
               {
@@ -7754,7 +7803,7 @@
       "kind": "StringLiteral",
       "offset": 277,
       "length": 7,
-      "value": "\"2.1.2\""
+      "value": "\"2.2.0\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
@@ -7941,42 +7990,56 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 574,
       "length": 18,
       "value": "\"VIDEO_ID_MANAGER\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 693,
+      "offset": 732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 816,
+      "offset": 773,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 817,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 940,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 880,
+      "offset": 1004,
       "length": 5,
       "value": "\"104\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1127,
       "length": 6,
       "value": "\"1027\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 854,
       "length": 2,
       "value": "\"\""
     },
@@ -8032,30 +8095,37 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "IntegerLiteral",
-      "offset": 441,
-      "length": 5,
-      "value": "30000"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 565,
+      "offset": 605,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 716,
+      "offset": 756,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 747,
+      "offset": 787,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 826,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 862,
+      "length": 5,
+      "value": "15000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingCoordinator.swift",
