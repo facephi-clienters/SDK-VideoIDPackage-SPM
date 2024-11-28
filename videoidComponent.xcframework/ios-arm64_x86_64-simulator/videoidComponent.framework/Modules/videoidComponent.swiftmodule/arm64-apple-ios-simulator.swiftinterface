@@ -74,6 +74,7 @@ extension videoidComponent.R {
     case sdkErrorColor
     case sdkNeutralColor
     case sdkAccentColor
+    case sdkTopIconsVideoColor
     case sdkTopIconsColor
     public init?(rawValue: Swift.String)
     public typealias AllCases = [videoidComponent.R.Color]
