@@ -3,11 +3,10 @@
 "video_id_component_finish_message"="¡Videograbación finalizada!";
 "video_id_component_finish_button"="FINALIZAR";
 "video_id_component_restart"="REPETIR GRABACIÓN";
-"video_id_component_record_init_button"="INICIAR GRABACIÓN";
 "video_id_component_ready_button"="CONTINUAR";
-"video_id_component_third_message"="Di en voz alta: \"Yo (nombre y apellidos) acepto los términos y condiciones\".";
-"video_id_component_second_message"="Coloca tu rostro y el dorso de tu documento en las marcas";
 "video_id_component_first_message"="Coloca tu rostro y el frente de tu documento en las marcas";
+"video_id_component_second_message"="Coloca tu rostro y el dorso de tu documento en las marcas";
+"video_id_component_third_message"="Di en voz alta: \"Yo (nombre y apellidos) acepto los términos y condiciones\".";
 "video_id_component_exit_alert_cancel"="Cancelar";
 "video_id_component_exit_alert_question" = "¿Seguro que quiere finalizar el proceso?";
 "video_id_component_exit_alert_finish" = "Finalizar";

@@ -3,11 +3,10 @@
 "video_id_component_finish_message"="Gravação de vídeo concluída!";
 "video_id_component_finish_button"="CONCLUIR";
 "video_id_component_restart"="REPETIR GRAVAÇÃO";
-"video_id_component_record_init_button"="INICIAR GRAVAÇÃO";
 "video_id_component_ready_button"="CONTINUAR";
-"video_id_component_third_message"="Em voz alta diga \"Eu (nome e sobrenome) aceito os termos e condições\".";
-"video_id_component_second_message"="Coloque o seu rosto e o verso do seu documento nas marcas";
 "video_id_component_first_message"="Coloque seu rosto e a frente do seu documento nas marcas";
+"video_id_component_second_message"="Coloque o seu rosto e o verso do seu documento nas marcas";
+"video_id_component_third_message"="Em voz alta diga \"Eu (nome e sobrenome) aceito os termos e condições\".";
 "video_id_component_exit_alert_cancel"="Cancel";
 "video_id_component_exit_alert_question" = "Tem a certeza de que vai concluir o processo?";
 "video_id_component_exit_alert_finish" = "Terminar";
