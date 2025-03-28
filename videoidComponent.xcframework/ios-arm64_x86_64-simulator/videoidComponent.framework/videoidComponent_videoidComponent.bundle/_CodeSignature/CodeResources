@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RJqGGKI0fLG7P+7rmDLI1QyDn8k=
+		JuwRuZmudYy+1ma05v2eQiDPCzg=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>VideoIdRecordingView.nib</key>
 		<data>
-		Pii6kPwjJLBTRycCUhJPwcWzwPw=
+		+jTs2Vz/CEFEdGW9Tjm8H+F7RPE=
 		</data>
 		<key>VideoIdTutorialView.nib</key>
 		<data>
@@ -32,6 +32,15 @@
 		<data>
 		cxL1CLMJXUQEU5OajFtzFBdTWls=
 		</data>
+		<key>ca.lproj/VIDLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FqxW9Y+pznh3Qm+wmPmo+AuJbD4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/VIDLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -46,6 +55,15 @@
 			<key>hash</key>
 			<data>
 			8w8NJDsQQpyX/wHY7qgEdxq695o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/VIDLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8XRxX/5eVodts2UnapzhWQB0/NI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -86,11 +104,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJqGGKI0fLG7P+7rmDLI1QyDn8k=
+			JuwRuZmudYy+1ma05v2eQiDPCzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vPJj62IjOmjXt0yqGj1mo7K6dSMyhPw5WR51x6lR4LY=
+			6tzWJFhGS7AYmJGbAZJNtiZLDYtrkt2X12oYIWtEA7c=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -130,11 +148,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pii6kPwjJLBTRycCUhJPwcWzwPw=
+			+jTs2Vz/CEFEdGW9Tjm8H+F7RPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nDbn2d4qpKIgMgQL/8nMsgYrFoNSPSSLcFiR3GpwaEE=
+			9qQCDVUbtn1fbWAaNF6fwz0Ls04b+ei4vGbeF7COKG8=
 			</data>
 		</dict>
 		<key>VideoIdTutorialView.nib</key>
@@ -159,6 +177,19 @@
 			x93QiGuTemFz5+r/dk0N4iLDT+foZ2rqtyeCA4p1fWc=
 			</data>
 		</dict>
+		<key>ca.lproj/VIDLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FqxW9Y+pznh3Qm+wmPmo+AuJbD4=
+			</data>
+			<key>hash2</key>
+			<data>
+			MrUwtdIC0XyWURWRcB7OeLbN5tFQkLCuQa/GnMTmtLw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/VIDLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -181,6 +212,19 @@
 			<key>hash2</key>
 			<data>
 			hjGWdjJnGlhxeGnAO9OnnVCNp204VDCHa/f5kmMBuj8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/VIDLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8XRxX/5eVodts2UnapzhWQB0/NI=
+			</data>
+			<key>hash2</key>
+			<data>
+			FfLu+7xfiyoPh5LK4WBpfZuZXKMHAxZywHvqEri5ukg=
 			</data>
 			<key>optional</key>
 			<true/>

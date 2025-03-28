@@ -297,6 +297,470 @@
       },
       {
         "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "videoidComponent"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsManager",
+        "printedName": "AnalyticsManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "output",
+            "printedName": "output",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "core.EventType",
+                            "usr": "s:4core9EventTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvp",
+            "mangledName": "$s16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvg",
+                "mangledName": "$s16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvg",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvs",
+                "mangledName": "$s16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvs",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvM",
+                "mangledName": "$s16videoidComponent16AnalyticsManagerC6outputySd_SS4core9EventTypeOSStcSgvM",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsManager",
+                "printedName": "videoidComponent.AnalyticsManager",
+                "usr": "s:16videoidComponent16AnalyticsManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent16AnalyticsManagerC6sharedACvpZ",
+            "mangledName": "$s16videoidComponent16AnalyticsManagerC6sharedACvpZ",
+            "moduleName": "videoidComponent",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsManager",
+                    "printedName": "videoidComponent.AnalyticsManager",
+                    "usr": "s:16videoidComponent16AnalyticsManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16AnalyticsManagerC6sharedACvgZ",
+                "mangledName": "$s16videoidComponent16AnalyticsManagerC6sharedACvgZ",
+                "moduleName": "videoidComponent",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsManager",
+                    "printedName": "videoidComponent.AnalyticsManager",
+                    "usr": "s:16videoidComponent16AnalyticsManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16AnalyticsManagerC6sharedACvsZ",
+                "mangledName": "$s16videoidComponent16AnalyticsManagerC6sharedACvsZ",
+                "moduleName": "videoidComponent",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent16AnalyticsManagerC6sharedACvMZ",
+                "mangledName": "$s16videoidComponent16AnalyticsManagerC6sharedACvMZ",
+                "moduleName": "videoidComponent",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendInfo",
+            "printedName": "sendInfo(time:component:type:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "core.EventType",
+                "usr": "s:4core9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16videoidComponent16AnalyticsManagerC8sendInfo4time9component4type4infoySd_SS4core9EventTypeOSStF",
+            "mangledName": "$s16videoidComponent16AnalyticsManagerC8sendInfo4time9component4type4infoySd_SS4core9EventTypeOSStF",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendInfo",
+            "printedName": "sendInfo(component:type:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "core.EventType",
+                "usr": "s:4core9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16videoidComponent16AnalyticsManagerC8sendInfo9component4type4infoySS_4core9EventTypeOSStF",
+            "mangledName": "$s16videoidComponent16AnalyticsManagerC8sendInfo9component4type4infoySS_4core9EventTypeOSStF",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendInfo",
+            "printedName": "sendInfo(component:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "core.EventType",
+                "usr": "s:4core9EventTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16videoidComponent16AnalyticsManagerC8sendInfo9component4typeySS_4core9EventTypeOtF",
+            "mangledName": "$s16videoidComponent16AnalyticsManagerC8sendInfo9component4typeySS_4core9EventTypeOtF",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16videoidComponent16AnalyticsManagerC",
+        "mangledName": "$s16videoidComponent16AnalyticsManagerC",
+        "moduleName": "videoidComponent",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1846,52 +2310,53 @@
             "moduleName": "videoidComponent"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "videoidComponent.VideoIdCamera?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoIdCamera",
+                    "printedName": "videoidComponent.VideoIdCamera",
+                    "usr": "s:16videoidComponent13VideoIdCameraO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "VideoIdCamera",
-                "printedName": "videoidComponent.VideoIdCamera",
-                "usr": "s:16videoidComponent13VideoIdCameraO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VideoIdCamera",
-                "printedName": "videoidComponent.VideoIdCamera",
-                "usr": "s:16videoidComponent13VideoIdCameraO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:16videoidComponent13VideoIdCameraO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s16videoidComponent13VideoIdCameraO2eeoiySbAC_ACtFZ",
+            "declKind": "Constructor",
+            "usr": "s:16videoidComponent13VideoIdCameraO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16videoidComponent13VideoIdCameraO8rawValueACSgSS_tcfc",
             "moduleName": "videoidComponent",
-            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "rawValue",
+            "printedName": "rawValue",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16videoidComponent13VideoIdCameraO9hashValueSivp",
-            "mangledName": "$s16videoidComponent13VideoIdCameraO9hashValueSivp",
+            "usr": "s:16videoidComponent13VideoIdCameraO8rawValueSSvp",
+            "mangledName": "$s16videoidComponent13VideoIdCameraO8rawValueSSvp",
             "moduleName": "videoidComponent",
             "implicit": true,
             "accessors": [
@@ -1902,14 +2367,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16videoidComponent13VideoIdCameraO9hashValueSivg",
-                "mangledName": "$s16videoidComponent13VideoIdCameraO9hashValueSivg",
+                "usr": "s:16videoidComponent13VideoIdCameraO8rawValueSSvg",
+                "mangledName": "$s16videoidComponent13VideoIdCameraO8rawValueSSvg",
                 "moduleName": "videoidComponent",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1917,80 +2382,61 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
+                "name": "Array",
+                "printedName": "[videoidComponent.VideoIdCamera]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoIdCamera",
+                    "printedName": "videoidComponent.VideoIdCamera",
+                    "usr": "s:16videoidComponent13VideoIdCameraO"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:16videoidComponent13VideoIdCameraO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s16videoidComponent13VideoIdCameraO4hash4intoys6HasherVz_tF",
+            "declKind": "Var",
+            "usr": "s:16videoidComponent13VideoIdCameraO8allCasesSayACGvpZ",
+            "mangledName": "$s16videoidComponent13VideoIdCameraO8allCasesSayACGvpZ",
             "moduleName": "videoidComponent",
+            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
+            "accessors": [
               {
-                "kind": "TypeNominal",
-                "name": "VideoIdCamera",
-                "printedName": "videoidComponent.VideoIdCamera",
-                "usr": "s:16videoidComponent13VideoIdCameraO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[videoidComponent.VideoIdCamera]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoIdCamera",
+                        "printedName": "videoidComponent.VideoIdCamera",
+                        "usr": "s:16videoidComponent13VideoIdCameraO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent13VideoIdCameraO8allCasesSayACGvgZ",
+                "mangledName": "$s16videoidComponent13VideoIdCameraO8allCasesSayACGvgZ",
+                "moduleName": "videoidComponent",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
               }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16videoidComponent13VideoIdCameraO4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s16videoidComponent13VideoIdCameraO4fromACs7Decoder_p_tKcfc",
-            "moduleName": "videoidComponent",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16videoidComponent13VideoIdCameraO6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s16videoidComponent13VideoIdCameraO6encode2toys7Encoder_p_tKF",
-            "moduleName": "videoidComponent",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -2000,6 +2446,7 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "String",
         "conformances": [
           {
             "kind": "Conformance",
@@ -2017,6 +2464,28 @@
           },
           {
             "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2028,6 +2497,36 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[videoidComponent.VideoIdCamera]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoIdCamera",
+                        "printedName": "videoidComponent.VideoIdCamera",
+                        "usr": "s:16videoidComponent13VideoIdCameraO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -2228,6 +2727,63 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[videoidComponent.VideoIdMode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoIdMode",
+                    "printedName": "videoidComponent.VideoIdMode",
+                    "usr": "s:16videoidComponent11VideoIdModeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent11VideoIdModeO8allCasesSayACGvpZ",
+            "mangledName": "$s16videoidComponent11VideoIdModeO8allCasesSayACGvpZ",
+            "moduleName": "videoidComponent",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[videoidComponent.VideoIdMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoIdMode",
+                        "printedName": "videoidComponent.VideoIdMode",
+                        "usr": "s:16videoidComponent11VideoIdModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent11VideoIdModeO8allCasesSayACGvgZ",
+                "mangledName": "$s16videoidComponent11VideoIdModeO8allCasesSayACGvgZ",
+                "moduleName": "videoidComponent",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -2288,6 +2844,36 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[videoidComponent.VideoIdMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoIdMode",
+                        "printedName": "videoidComponent.VideoIdMode",
+                        "usr": "s:16videoidComponent11VideoIdModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -7149,6 +7735,226 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "analyticsOutput",
+            "printedName": "analyticsOutput",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventType",
+                            "printedName": "core.EventType",
+                            "usr": "s:4core9EventTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvp",
+            "mangledName": "$s16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvp",
+            "moduleName": "videoidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvg",
+                "mangledName": "$s16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvg",
+                "moduleName": "videoidComponent",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, core.EventType, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, core.EventType, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventType",
+                                "printedName": "core.EventType",
+                                "usr": "s:4core9EventTypeO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvs",
+                "mangledName": "$s16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvs",
+                "moduleName": "videoidComponent",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvM",
+                "mangledName": "$s16videoidComponent17VideoIdControllerC15analyticsOutputySd_SS4core9EventTypeOSStcSgvM",
+                "moduleName": "videoidComponent",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "start",
             "printedName": "start(operationController:)",
@@ -7425,13 +8231,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ILicensableController",
-            "printedName": "ILicensableController",
-            "usr": "s:4core21ILicensableControllerP",
-            "mangledName": "$s4core21ILicensableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "IStartableController",
             "printedName": "IStartableController",
             "usr": "s:4core20IStartableControllerP",
@@ -7450,6 +8249,20 @@
             "printedName": "IStatusableController",
             "usr": "s:4core21IStatusableControllerP",
             "mangledName": "$s4core21IStatusableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IAnalyzableController",
+            "printedName": "IAnalyzableController",
+            "usr": "s:4core21IAnalyzableControllerP",
+            "mangledName": "$s4core21IAnalyzableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ILicensableController",
+            "printedName": "ILicensableController",
+            "usr": "s:4core21ILicensableControllerP",
+            "mangledName": "$s4core21ILicensableControllerP"
           },
           {
             "kind": "Conformance",
@@ -7671,13 +8484,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ILicensableController",
-            "printedName": "ILicensableController",
-            "usr": "s:4core21ILicensableControllerP",
-            "mangledName": "$s4core21ILicensableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "IStartableController",
             "printedName": "IStartableController",
             "usr": "s:4core20IStartableControllerP",
@@ -7696,6 +8502,20 @@
             "printedName": "IStatusableController",
             "usr": "s:4core21IStatusableControllerP",
             "mangledName": "$s4core21IStatusableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IAnalyzableController",
+            "printedName": "IAnalyzableController",
+            "usr": "s:4core21IAnalyzableControllerP",
+            "mangledName": "$s4core21IAnalyzableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ILicensableController",
+            "printedName": "ILicensableController",
+            "usr": "s:4core21ILicensableControllerP",
+            "mangledName": "$s4core21ILicensableControllerP"
           },
           {
             "kind": "Conformance",
@@ -8414,34 +9234,34 @@
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 277,
-      "length": 8,
-      "value": "\"2.2.11\""
+      "length": 7,
+      "value": "\"2.3.1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 323,
+      "offset": 322,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 360,
+      "offset": 359,
       "length": 5,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 399,
+      "offset": 398,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 432,
+      "offset": 431,
       "length": 5,
       "value": "30000"
     },
@@ -8546,70 +9366,70 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 239,
+      "offset": 296,
       "length": 18,
       "value": "\"videoidComponent\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 344,
+      "offset": 401,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 358,
+      "offset": 415,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 433,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 452,
+      "offset": 509,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 523,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 537,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 498,
+      "offset": 555,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 746,
       "length": 36,
       "value": "\"Cannot access \""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 781,
       "length": 4,
       "value": "\"\""
     },
@@ -8714,42 +9534,42 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "IntegerLiteral",
-      "offset": 697,
+      "offset": 761,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 848,
+      "offset": 912,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 879,
+      "offset": 943,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "IntegerLiteral",
-      "offset": 916,
+      "offset": 980,
       "length": 5,
       "value": "15000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "IntegerLiteral",
-      "offset": 951,
+      "offset": 1015,
       "length": 5,
       "value": "15000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Model\/VideoIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1040,
+      "offset": 1104,
       "length": 4,
       "value": "true"
     },
@@ -8791,30 +9611,30 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 594,
+      "offset": 731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 497,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 537,
+      "offset": 522,
       "length": 18,
       "value": "\"VIDEO_ID_WAITING\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3229,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Theme\/R\/Dimension.swift",
@@ -8881,29 +9701,36 @@
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Views\/VideoIdRecordingView\/VideoIdRecordingView.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Views\/VideoIdRecordingView\/VideoIdRecordingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 978,
+      "offset": 1009,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/UI\/Views\/VideoIdTutorialView\/VideoIdTutorialView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 587,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/VideoIdController.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 523,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/VideoIdController.swift",
       "kind": "StringLiteral",
-      "offset": 1509,
+      "offset": 601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/VideoIdController.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
       "length": 2,
       "value": "\"\""
     }
