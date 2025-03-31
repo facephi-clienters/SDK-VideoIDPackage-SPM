@@ -2674,6 +2674,43 @@
               },
               {
                 "kind": "Var",
+                "name": "sdkTopIconsVideoColor",
+                "printedName": "sdkTopIconsVideoColor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(videoidComponent.R.Color.Type) -> videoidComponent.R.Color",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "videoidComponent.R.Color",
+                        "usr": "s:16videoidComponent1RO5ColorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "videoidComponent.R.Color.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "videoidComponent.R.Color",
+                            "usr": "s:16videoidComponent1RO5ColorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16videoidComponent1RO5ColorO016sdkTopIconsVideoC0yA2EmF",
+                "mangledName": "$s16videoidComponent1RO5ColorO016sdkTopIconsVideoC0yA2EmF",
+                "moduleName": "videoidComponent"
+              },
+              {
+                "kind": "Var",
                 "name": "sdkTopIconsColor",
                 "printedName": "sdkTopIconsColor",
                 "children": [
@@ -7803,14 +7840,14 @@
       "kind": "StringLiteral",
       "offset": 277,
       "length": 7,
-      "value": "\"2.2.0\""
+      "value": "\"2.2.5\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 4,
-      "value": "3000"
+      "value": "5000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
@@ -7818,6 +7855,13 @@
       "offset": 359,
       "length": 5,
       "value": "60000"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 4,
+      "value": "3000"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/DocumentAnimationTypeActive.swift",
@@ -7990,56 +8034,77 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 637,
       "length": 18,
       "value": "\"VIDEO_ID_MANAGER\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 732,
+      "offset": 795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 773,
+      "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 817,
+      "offset": 880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 940,
+      "offset": 1003,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1067,
       "length": 5,
       "value": "\"104\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 1127,
+      "offset": 1190,
       "length": 6,
       "value": "\"1027\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 1317,
+      "length": 14,
+      "value": "\"RECONNECTING\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1452,
+      "length": 11,
+      "value": "\"CONNECTED\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Helpers\/VideoIdManager.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
       "length": 2,
       "value": "\"\""
     },
@@ -8126,13 +8191,6 @@
       "offset": 862,
       "length": 5,
       "value": "15000"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 436,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/Scenes\/VideoIdWaiting\/VideoIdWaitingViewModel.swift",
@@ -8277,14 +8335,14 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/VideoIdController.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 600,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-VideoID-SPM\/SDK-VideoID-SPM\/Sources\/videoidComponent\/VideoIdController.swift",
       "kind": "StringLiteral",
-      "offset": 1324,
+      "offset": 1306,
       "length": 2,
       "value": "\"\""
     }
