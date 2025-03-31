@@ -22,17 +22,30 @@ public enum Constants {
   public static let libraryPackageVersion: Swift.String
 }
 public struct VideoIDConfigurationData : Swift.Codable {
-  public var sectionTime: Swift.Int?
   public var showCompletedTutorial: Swift.Bool?
   public var mode: videoidComponent.VideoIdMode?
+  public var cameraPreferred: videoidComponent.VideoIdCamera?
+  public var vibrationEnabled: Swift.Bool?
   public var url: Swift.String?
   public var apiKey: Swift.String?
   public var tenantId: Swift.String?
-  public var timeoutServerConnection: Swift.Int?
   public var timeoutFaceDetection: Swift.Int?
-  public var vibrationEnabled: Swift.Bool?
-  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT_BACK, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = true, vibrationEnabled: Swift.Bool = false, timeoutServerConnection: Swift.Int? = 30000, timeoutFaceDetection: Swift.Int? = 15000)
+  public var timeoutServerConnection: Swift.Int?
+  public var sectionTime: Swift.Int?
+  public var autoFaceDetection: Swift.Bool?
+  public init(sectionTime: Swift.Int = 5000, mode: videoidComponent.VideoIdMode = .FACE_DOCUMENT_FRONT_BACK, url: Swift.String? = nil, apiKey: Swift.String? = nil, tenantId: Swift.String? = nil, showCompletedTutorial: Swift.Bool = true, vibrationEnabled: Swift.Bool = true, timeoutServerConnection: Swift.Int = 15000, timeoutFaceDetection: Swift.Int = 15000, cameraPreferred: videoidComponent.VideoIdCamera? = VideoIdCamera.FRONT, autoFaceDetection: Swift.Bool? = true)
   public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum VideoIdCamera : Swift.Codable {
+  case FRONT
+  case BACK
+  public static func == (a: videoidComponent.VideoIdCamera, b: videoidComponent.VideoIdCamera) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
   public init(from decoder: Swift.Decoder) throws
 }
 public enum VideoIdMode : Swift.String, Swift.Codable {
@@ -233,6 +246,8 @@ extension videoidComponent.VideoIdController : core.IFlowableController {
   override public init(data: videoidComponent.VideoIDConfigurationData?, output: @escaping (core.SdkResult<Swift.String>) -> (), viewController: UIKit.UIViewController)
   @objc deinit
 }
+extension videoidComponent.VideoIdCamera : Swift.Equatable {}
+extension videoidComponent.VideoIdCamera : Swift.Hashable {}
 extension videoidComponent.VideoIdMode : Swift.Equatable {}
 extension videoidComponent.VideoIdMode : Swift.Hashable {}
 extension videoidComponent.VideoIdMode : Swift.RawRepresentable {}
