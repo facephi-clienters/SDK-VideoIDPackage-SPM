@@ -21,6 +21,14 @@ import licenseCheckerComponent
 public enum Constants {
   public static let libraryPackageVersion: Swift.String
 }
+@_hasMissingDesignatedInitializers public class AnalyticsManager {
+  public var output: core.AnalyticsOutput?
+  public static var shared: videoidComponent.AnalyticsManager
+  public func sendInfo(time: Swift.Double, component: Swift.String, type: core.EventType, info: Swift.String)
+  public func sendInfo(component: Swift.String, type: core.EventType, info: Swift.String)
+  public func sendInfo(component: Swift.String, type: core.EventType)
+  @objc deinit
+}
 public struct VideoIDConfigurationData : Swift.Codable {
   public var showCompletedTutorial: Swift.Bool?
   public var mode: videoidComponent.VideoIdMode?
@@ -37,23 +45,29 @@ public struct VideoIDConfigurationData : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public enum VideoIdCamera : Swift.Codable {
+public enum VideoIdCamera : Swift.String, Swift.Codable, Swift.CaseIterable {
   case FRONT
   case BACK
-  public static func == (a: videoidComponent.VideoIdCamera, b: videoidComponent.VideoIdCamera) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public func encode(to encoder: Swift.Encoder) throws
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [videoidComponent.VideoIdCamera]
+  public typealias RawValue = Swift.String
+  public static var allCases: [videoidComponent.VideoIdCamera] {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public var rawValue: Swift.String {
+    get
+  }
 }
-public enum VideoIdMode : Swift.String, Swift.Codable {
+public enum VideoIdMode : Swift.String, Swift.Codable, Swift.CaseIterable {
   case ONLY_FACE
   case FACE_DOCUMENT_FRONT
   case FACE_DOCUMENT_FRONT_BACK
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [videoidComponent.VideoIdMode]
   public typealias RawValue = Swift.String
+  public static var allCases: [videoidComponent.VideoIdMode] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
@@ -224,6 +238,10 @@ public class VideoIdController {
 extension videoidComponent.VideoIdController : core.ITrackableController {
 }
 extension videoidComponent.VideoIdController : core.IMethodableController {
+  public var analyticsOutput: core.AnalyticsOutput? {
+    get
+    set(newValue)
+  }
   public func start(operationController: core.IOperationableController)
 }
 extension videoidComponent.VideoIdController : core.IFlowableController {
@@ -248,6 +266,7 @@ extension videoidComponent.VideoIdController : core.IFlowableController {
 }
 extension videoidComponent.VideoIdCamera : Swift.Equatable {}
 extension videoidComponent.VideoIdCamera : Swift.Hashable {}
+extension videoidComponent.VideoIdCamera : Swift.RawRepresentable {}
 extension videoidComponent.VideoIdMode : Swift.Equatable {}
 extension videoidComponent.VideoIdMode : Swift.Hashable {}
 extension videoidComponent.VideoIdMode : Swift.RawRepresentable {}
