@@ -36,8 +36,7 @@ let package = Package(
                             package: "Starscream"),
                            .product(
                             name: "Lottie",
-                            package: "lottie-spm"),
-                           .product(
+                            package: "lottie-spm")
                           ]
         ),
         .binaryTarget(name: "videoidComponent", path: "videoidComponent.xcframework"),
