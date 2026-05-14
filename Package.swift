@@ -16,11 +16,11 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "git@github.com:AgoraIO/AgoraLite_iOS.git", .upToNextMinor(from: "4.5.2")),
+        .package(url: "git@github.com:AgoraIO/AgoraLite_iOS.git", .upToNextMinor(from: "4.5.3")),
         .package(url: "git@github.com:daltoniam/Starscream.git", .upToNextMinor(from: "4.0.8")),
-        .package(url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.7.0")),
+        .package(url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.8.0")),
         .package(url: "git@github.com:airbnb/lottie-spm", .upToNextMinor(from: "4.4.0")),
-        .package(url: "git@github.com:facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "2.0.6"))
+        .package(url: "git@github.com:facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "2.1.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -45,7 +45,7 @@ let package = Package(
             ]
         ),
         .binaryTarget(name: "videoidComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKVideoIDComponent/2.7.0/videoidComponent.zip",
-        checksum: "8c4713b5c63ac12e3988520ee7e048a0efb5bfba630cf67acb5dd38492c5d64b"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKVideoIDComponent/2.8.0/videoidComponent.zip",
+        checksum: "1d17ea5cb3cfbdf7304f22f640ab4f0ca60e1c7151086815c58d39addb79ae3e"),
     ]
 )
