@@ -93,3 +93,4 @@ Firebase/
 
 # scan temporary files
 **/fastlane/test_output
+*.xcframework
