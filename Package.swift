@@ -18,7 +18,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/AgoraIO/AgoraLite_iOS.git", .upToNextMinor(from: "4.5.3")),
         .package(url: "https://github.com/daltoniam/Starscream.git", .upToNextMinor(from: "4.0.8")),
-        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.8.1")),
+        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.9.0")),
         .package(url: "https://github.com/airbnb/lottie-spm.git", .upToNextMinor(from: "4.4.0")),
         .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "2.1.0"))
     ],
@@ -45,7 +45,7 @@ let package = Package(
             ]
         ),
         .binaryTarget(name: "videoidComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKVideoIDComponent/2.8.1/videoidComponent.zip",
-        checksum: "5a81d30510b38b10b05910bdebad8821dd2936998106af446a2e055f3c7d5cb8"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKVideoIDComponent/2.9.0/videoidComponent.zip",
+        checksum: "7acc46d075bb1a24cfb33f23b7ddbe73fcd17a6e7f5b93fc985e1c0955ee83a9"),
     ]
 )
