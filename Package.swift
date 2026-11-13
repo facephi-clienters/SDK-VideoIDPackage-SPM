@@ -21,7 +21,7 @@ let package = Package(
         .package(url: "https://github.com/daltoniam/Starscream.git", .upToNextMinor(from: "4.0.8")),
         .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.12.0")),
         .package(url: "https://github.com/airbnb/lottie-spm.git", .upToNextMinor(from: "4.4.0")),
-        .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "3.3.13"))
+        .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "3.5.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -46,7 +46,7 @@ let package = Package(
             ]
         ),
         .binaryTarget(name: "videoidComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKVideoIDComponent/2.12.0/videoidComponent.zip",
-        checksum: "2db1e264306738fdd6ee72a26e12c75616ba85c7ede18011bbd2c7ebc54b0e10"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKVideoIDComponent/2.12.1/videoidComponent.zip",
+        checksum: "7a773f2cf7476303c3b1234af31dd28d96670c2559232b4cbf081f0ccde989ce"),
     ]
 )
